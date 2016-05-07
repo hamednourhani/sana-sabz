@@ -44,10 +44,11 @@ div#responsive-wrapper{
 	@include fa-icon;
 }
 a{
+	@extend .def-transition;
 	text-decoration : none;
-	color : darken($grey2,30%);
+	color : $brown;
 	&:hover{
-		color : $red;
+		color : $green;
 	}
 }
 // #wpadminbar{

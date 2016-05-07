@@ -74,11 +74,13 @@
 							<i class="fa fa-navicon"></i>
 						</a>
 
-						<a href="<?php echo get_bloginfo('url'); ?>">
-							<img src="<?php echo get_template_directory_uri();?>/images/viracleanroom-logo.png" alt="<?php echo get_bloginfo('name'); ?>"/>
+						<a class="site-link" href="<?php echo get_bloginfo('url'); ?>">
+							<img src="<?php echo get_template_directory_uri();?>/images/sana-logo.png" alt="<?php echo get_bloginfo('name'); ?>"/>
 						</a>
+
 					</div>
-					<span class="site-desc"><?php echo __('Clean Room Technology & Construction','itstar'); ?></span>
+					<span class="site-desc"><?php echo __('the customer is always right','itstar'); ?></span>
+
 				</section>
 			
 
@@ -91,7 +93,7 @@
 							</a>
 
 							<a class="responsive-logo" href="<?php echo get_bloginfo('url'); ?>">
-								<img src="<?php echo get_template_directory_uri();?>/images/viracleanroom-grey-logo.png" alt="<?php echo get_bloginfo('name'); ?>"/>
+								<img src="<?php echo get_template_directory_uri();?>/images/sana-menu-logo.png" alt="<?php echo get_bloginfo('name'); ?>"/>
 							</a>
 							<?php //$responsive_walker = new Viradeco_walker_nav_menu; ?>
 							<?php wp_nav_menu(array(

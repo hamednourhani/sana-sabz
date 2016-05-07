@@ -39,29 +39,39 @@
 }
 .hero{
 	background-color : $cream;
-	color : $black1;
+	border-bottom : 4px solid $green3;
+	color : $green;
 	position: relative;
 	.logo-wrapper{
 		width : 100%;
-		max-width : 100%;
 		text-align : center;
-		padding : 5px 0px 0px;
+		padding : 0px;
 		padding-right:40px;
-		@include at-breakpoint($slarg) {
-			max-width : 150px;
-			padding : 5px 0px 0px;
-		}
 		display: inline-block;
-		
-		overflow: hidden;
-		margin-bottom: -38px;
-		-webkit-margin-after: -8px;
-		a.menu-toggler{
+
+		margin : 15px 10px 5px;
+
+		max-width : 100%;
+		@include at-breakpoint($slarg){
+			max-width : 280px;
+			margin : 10px 10px 0px;
+		}
+		a.site-link{
 			display : inline-block;
-			float : left ;
-			margin : 35px 18px;
+			width : 100%;
+			img{
+				max-width : 100%;
+			}
+		}
+		a.menu-toggler{
+			@extend .def-transition;
+			display : inline-block;
+			position: absolute;
+			top : 0px;
+			left : 0px;
+			margin :10px 18px 0px;
 			padding : 5px 10px 3px;
-			border : 1px solid $grey2;
+			border : 1px dashed $brown;
 			@include at-breakpoint($slarg){
 				display : none;
 			}
@@ -71,35 +81,36 @@
 			}
 			&:hover{
 				cursor : pointer;
+				border-color : $green;
 			}
 		}
 	}
 	.site-desc{
+		position: relative;
 		display : none;
 		font-size : 24px;
 		@include at-breakpoint($slarg) {
 			display : inline-block;
 		}
-		// position : absolute;
-		// top : 40px;
-		// left : 20px;
-		//margin-right : 40px;
+		color : $green;
+		font-weight: 600;
+		border-bottom : 1px dashed $green;
 		float : right;
-		margin-top : 40px;
+		margin-top : 30px;
 		padding : 10px;
 		position : relative;
-		&:after{
-			display : inline-block;
-			position : absolute;
-			bottom : 20px;
-			right : auto;
-			left : 100%;
-			height : 5px;
-			width : 700px;
-			max-width: 100%;
-			background-color: $red;
+		font-size : 100%;
+		&::after {
 			content : "";
+			position: absolute;
+			bottom : 0px;
+			right : -43px;
+			background: image_url('leaf-right-50.png') top right no-repeat;
+			width : 50px;
+			height : 41px;
 		}
+
+
 	}
 
 }
@@ -137,19 +148,24 @@ nav.main-menu{
 		@include at-breakpoint($slarg) {
 		  	display : inline-block;
 		}
+		background:image_url('pistachio-4.png') bottom left no-repeat,$green;
 		position : absolute;
-		margin-top : 5px;
-		right : 30px;
-		top : 13px;
+		margin-top : -1px;
+		padding : 19px;
+		right : 0px;
+		top : 0px;
+		overflow: hidden;
 		input{
 			float : left;
 			@include single-transition(all, 0.8s, ease-in-out);
+			border : 1px dashed $green2 !important;
+			opacity: 0.8;
 			width : 130px;
 			height : 32px;
 			color : $black1;
-			font-size : 90%;
+			background-color: $glassyWhite;
 			&:focus{
-				width : 160px;
+				width : 170px;
 			}
 			
 		}
@@ -159,11 +175,12 @@ nav.main-menu{
 		&:before{
 			@extend .fa;
 			content : "\f002";
+			z-index: 2;
 			position : absolute;
-			    top: 8px;
-			    right: 7px;
+			    top: 25px;
+			    right: 25px;
 			    font-size: 110%;
-			    color: $grey2;
+			    color: $green;
 
 		}
 	}
@@ -183,12 +200,12 @@ nav.main-menu{
 		max-height : 100%;
 		width : 250px;
 		max-width : 100%;
-		background-color : $black1;
+		background-color : $grey3;
 		padding : 10px;
 		padding-bottom: 150px;
-		color : $white
+		color : $cream;
 		a{
-			color : $white;
+			color : $green2;
 		}
 		a.responsive-logo{
 			display : inline-block;
@@ -198,9 +215,9 @@ nav.main-menu{
 			transform : translateX(250px);
 		}
 		a.close-responsive{
-			color : $white;
-			padding : 2px 5px 0px;
-			border : 1px solid $white;
+			color : $cream;
+			padding : 2px 7px 0px;
+			border : 1px solid $cream;
 			
 			font-size : 110%;
 			float : right;
@@ -222,11 +239,11 @@ nav.main-menu{
 			li{
 				
 				a{
-					color : $white;
+					color : $cream;
 					line-height: 130%;
 					
 					&:hover{
-						color : $grey2;
+						color : $green2;
 					}
 				}
 			}
@@ -234,14 +251,14 @@ nav.main-menu{
 				margin-left : 30px;
 				a{
 					position : relative;
-					color : $grey2;
+					color : $cream;
 					&:before{
 						@extend .fa;
 						content : "\f178";
 						position : absolute;
 						left : -20px;
 						top : 6px;
-						color : $grey1;
+						color : $green2;
 
 					}
 					&:hover{
@@ -257,18 +274,18 @@ nav.main-menu{
 }
 	
 ul.main-nav{
-	//@include single-transition(all , 0.2s , ease-in-out);
+	@extend .dark-box-shadow;
 	font-size : 90%;
 	margin-bottom : -30px;
 	padding : 0;
-	 background-color : $white2;
+	 background-color : $green;
 	 opacity : 0;
 	 @include at-breakpoint($slarg){
 			opacity : 1; 
 		}
 	a{
 		@include single-transition(all , 0.2s , ease-in-out);
-		color : $black2;
+		color : $white;
 		padding : 20px 17px;
 		display : none;
 		
@@ -279,8 +296,8 @@ ul.main-nav{
 		
 		&:hover{
 			// color : $black1;
-			color : $white2;
-			background-color : $black2;
+			color : $green;
+			background-color : $cream;
 			
 		}
 	}
@@ -305,6 +322,8 @@ ul.main-nav{
 	}
 	
 	&>li>ul.sub-menu,li ul.sub-menu{
+		@extend .dark-box-shadow;
+
 		//@include single-transition(all , 0.8s , ease-in-out);
 		z-index : 0;
 		//text-align : center;
@@ -320,16 +339,17 @@ ul.main-nav{
 		
 		li{
 			//display: none;
-			background-color : $white2;
+			background-color : $green;
 	 		@include animation('move-down .5s 1');
 		}
 		
 		a{
+			color : $white;
 			min-width : 220px;
 			padding : 10px 20px;
 			&:hover{
-				// color : $white2;
-				// background-color : $black2;
+				color : $green;
+				background-color : $cream;
 			}
 		}
 		li.menu-item-has-children>a:after{
@@ -375,7 +395,7 @@ ul.main-nav{
 		
 		li{
 			//display: none;
-			background-color : $white2;
+			background-color : $green;
 	 		@include animation('move-down .5s 1');
 		}
 		
@@ -383,8 +403,8 @@ ul.main-nav{
 			min-width : 180px;
 			padding : 15px;
 			&:hover{
-				// color : $white2;
-				// background-color : $black2;
+				 color : $green;
+				background-color : $cream;
 			}
 		}
 	}

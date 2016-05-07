@@ -30,6 +30,8 @@ body{
 	
 }
 .site-main{
+	background-color: $white;
+	background: image-url('pattern.jpg') top left repeat;
 	z-index : 10;
 	@include clearfix;
 	.single-cat-title{
@@ -134,28 +136,55 @@ article,.hentry{
 	}
 	
 	padding : 20px;
+	background: image_url('pistachio-8.png') bottom right no-repeat,$glassyCream;
+	background-position: 101% 100%;
 	.article-title{
 		font-size : 100%;
 		position : relative;
 		display : inline-block;
-		border-bottom : 1px solid $grey2;
 		margin-bottom : 20px;
 		width : 100%;
 		h3{
 			margin : 0;
-			padding : 10px 0;
-			display : inline-block;
+			color : $green;
+			display : inline;
+			clear : both;
+			border-bottom : 1px dashed $green2;
+			&::before{
+				display : none;
+			}
 			&::after{
 				@include single-transition(all 0.2s ease-out);
 				display : block;
 				content : "";
-				width : 30px;
+				width : 40px;
 				height : 3px;
-				background-color : $red;
+				background-color : $green;
 				position : absolute;
 				bottom : 0px;
-				left : 0;
+				left : 0px;
 			}
+			@include at-breakpoint($slarg){
+				margin-left : 70px;
+				&::before{
+					@include single-transition(all 0.2s ease-out);
+					display : block;
+					content : "";
+					width : 59px;
+					height : 49px;
+					background : image_url('pistachio-7.png') top left no-repeat;
+					position : absolute;
+					bottom : 0px;
+					left : 0;
+				}
+				&::after{
+					left : 70px;
+				}
+			}
+			padding : 10px 0;
+			display : inline-block;
+
+
 						
 		}
 	}
@@ -388,33 +417,34 @@ body.home{
 }
 .widget{
 	font-size : 90%;
-	padding:20px;
-	background-color : $grey1;
+	padding:20px 20px 50px;
+	background-color : $cream;
 	margin-bottom : 20px;
+	background : image_url('pistachio-5.png') bottom right no-repeat ,$glassyCream;
 	h4.widgettitle{
 		width : 100%;
 		position : relative;
 		display : inline-block;
-		border-bottom : 1px solid $grey2;
+		border-bottom : 1px solid $green2;
 		margin : 0;
 		margin-bottom : 20px;
 		padding : 10px 0;
-		&:after{
+		color : $green;
+		&:before{
 			@include single-transition(all 0.2s ease-out);
 			display : block;
 			content : "";
-			width : 30px;
+			width : 40px;
 			height : 3px;
-			background-color : $red;
+			background-color : $green;
 			position : absolute;
 			bottom : 0px;
-			left : 0;
+			left : 0px;
 		}
+
 		
 	}
-	// &:hover .widgettitle h4::after{
-	// 	width : 40%;
-	// }
+
 	p{
 		margin : 5px;
 	}
@@ -439,11 +469,10 @@ body.home{
 	 	}
 	 }
 
+
 }
 
-.products-area{
-	background-color : $grey1;
-}
+
 	
 ul.widget-list{
 	li{

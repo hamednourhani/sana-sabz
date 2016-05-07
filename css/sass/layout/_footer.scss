@@ -4,16 +4,25 @@ footer.site-footer,.site-footer{
 	margin :0;
 	padding : 15px;
 	text-align : left;
-	background-color: $cream;
-	color : $black2;
+	background-color: darken($brown,20%);
+	color : $cream;
 	font-size : 90%;
 	.site-designer{
 		float : right;
 		font-size : 90%;
 	}
+	a{
+		color : $green3;
+		&:hover{
+			color : $green2;
+		}
+	}
 	
 }
 .products-area{
+	border-top : 3px solid $green3;
+	background: image_url('pistachio-footer.jpg') bottom left repeat , $grey3;
+	padding-top : 25px;
 	.products-widget-col{
 		@include span-columns(12,12);
 		@include at-breakpoint($medium){
@@ -25,11 +34,15 @@ footer.site-footer,.site-footer{
 		}
 		.widget{
 			width : 100%;
+			background-color: $glassyCream2;
+			color : $black1;
 		}
 	}
 	
 }
 .contact-area{
+	padding-top : 25px;
+	background-color: $cream;
 	.widget.footer-second{
 		
 		@include span-columns(12,12);
@@ -41,10 +54,16 @@ footer.site-footer,.site-footer{
 			}
 		}
 	}
+	.widget{
+		width : 100%;
+		background-color: $glassyWhite;
+		color : $black1;
+	}
 }
 
 .partners{
 	text-align : center;
+	display : none;
 	.partner{
 		text-align : center;
 		margin-top : 30px;
