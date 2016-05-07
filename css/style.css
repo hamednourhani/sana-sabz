@@ -1875,6 +1875,7 @@ body {
 
 /* line 132, sass/layout/_main.scss */
 article, .hentry {
+  padding-bottom: 50px;
   padding: 20px;
   -moz-border-radius-topright: 10px;
   -webkit-border-top-right-radius: 10px;
@@ -1888,14 +1889,14 @@ article, .hentry {
   article .featured-image.single-image, .hentry .featured-image.single-image {
     float: left;
     padding-right: 10px; }
-  /* line 144, sass/layout/_main.scss */
+  /* line 145, sass/layout/_main.scss */
   article .article-title, .hentry .article-title {
     font-size: 100%;
     position: relative;
     display: inline-block;
     margin-bottom: 20px;
     width: 100%; }
-    /* line 150, sass/layout/_main.scss */
+    /* line 151, sass/layout/_main.scss */
     article .article-title h3, .hentry .article-title h3 {
       margin: 0;
       color: #147e07;
@@ -1904,10 +1905,10 @@ article, .hentry {
       border-bottom: 1px dashed #8CC63E;
       padding: 10px 0;
       display: inline-block; }
-      /* line 156, sass/layout/_main.scss */
+      /* line 157, sass/layout/_main.scss */
       article .article-title h3::before, .hentry .article-title h3::before {
         display: none; }
-      /* line 159, sass/layout/_main.scss */
+      /* line 160, sass/layout/_main.scss */
       article .article-title h3::after, .hentry .article-title h3::after {
         -moz-transition: all, 0.2s, ease-out 1s 0s;
         -o-transition: all, 0.2s, ease-out 1s 0s;
@@ -1923,10 +1924,10 @@ article, .hentry {
         bottom: 0px;
         left: 0px; }
       @media (min-width: 65em) {
-        /* line 150, sass/layout/_main.scss */
+        /* line 151, sass/layout/_main.scss */
         article .article-title h3, .hentry .article-title h3 {
           margin-left: 70px; }
-          /* line 172, sass/layout/_main.scss */
+          /* line 173, sass/layout/_main.scss */
           article .article-title h3::before, .hentry .article-title h3::before {
             -moz-transition: all, 0.2s, ease-out 1s 0s;
             -o-transition: all, 0.2s, ease-out 1s 0s;
@@ -1941,163 +1942,163 @@ article, .hentry {
             position: absolute;
             bottom: 0px;
             left: 0; }
-          /* line 183, sass/layout/_main.scss */
+          /* line 184, sass/layout/_main.scss */
           article .article-title h3::after, .hentry .article-title h3::after {
             left: 70px; } }
-  /* line 197, sass/layout/_main.scss */
+  /* line 198, sass/layout/_main.scss */
   article p, .hentry p {
     margin: 5px; }
-  /* line 200, sass/layout/_main.scss */
+  /* line 201, sass/layout/_main.scss */
   article .product-features, article .project-features, .hentry .product-features, .hentry .project-features {
     margin-top: 40px; }
-    /* line 202, sass/layout/_main.scss */
+    /* line 203, sass/layout/_main.scss */
     article .product-features h4.feature-header, article .project-features h4.feature-header, .hentry .product-features h4.feature-header, .hentry .project-features h4.feature-header {
       margin: 5px auto; }
-    /* line 205, sass/layout/_main.scss */
+    /* line 206, sass/layout/_main.scss */
     article .product-features ul.feature-images, article .project-features ul.feature-images, .hentry .product-features ul.feature-images, .hentry .project-features ul.feature-images {
       overflow: hidden;
       *zoom: 1; }
-      /* line 207, sass/layout/_main.scss */
+      /* line 208, sass/layout/_main.scss */
       article .product-features ul.feature-images li, article .project-features ul.feature-images li, .hentry .product-features ul.feature-images li, .hentry .project-features ul.feature-images li {
         display: inline-block; }
-        /* line 209, sass/layout/_main.scss */
+        /* line 210, sass/layout/_main.scss */
         article .product-features ul.feature-images li img, article .project-features ul.feature-images li img, .hentry .product-features ul.feature-images li img, .hentry .project-features ul.feature-images li img {
           margin: 3px;
           border: 1px solid #E6E7E7; }
-  /* line 216, sass/layout/_main.scss */
+  /* line 217, sass/layout/_main.scss */
   article .project-meta, .hentry .project-meta {
     width: 90%;
     display: block;
     margin: auto auto 30px; }
-    /* line 220, sass/layout/_main.scss */
+    /* line 221, sass/layout/_main.scss */
     article .project-meta ul, .hentry .project-meta ul {
       width: 100%; }
-    /* line 223, sass/layout/_main.scss */
+    /* line 224, sass/layout/_main.scss */
     article .project-meta li, .hentry .project-meta li {
       display: inline-block;
       width: 100%;
       padding: 0;
       margin: 0; }
-      /* line 230, sass/layout/_main.scss */
+      /* line 231, sass/layout/_main.scss */
       article .project-meta li span, .hentry .project-meta li span {
         border: 1px solid #E6E7E7;
         padding: 5px 15px;
         display: inline-block;
         background-color: #F8F8F8; }
-        /* line 235, sass/layout/_main.scss */
+        /* line 236, sass/layout/_main.scss */
         article .project-meta li span.meta-name, .hentry .project-meta li span.meta-name {
           max-width: 100%;
           width: 100%; }
           @media (min-width: 45em) {
-            /* line 235, sass/layout/_main.scss */
+            /* line 236, sass/layout/_main.scss */
             article .project-meta li span.meta-name, .hentry .project-meta li span.meta-name {
               width: 38%; } }
-        /* line 242, sass/layout/_main.scss */
+        /* line 243, sass/layout/_main.scss */
         article .project-meta li span.meta-value, .hentry .project-meta li span.meta-value {
           max-width: 100%;
           width: 100%; }
           @media (min-width: 45em) {
-            /* line 242, sass/layout/_main.scss */
+            /* line 243, sass/layout/_main.scss */
             article .project-meta li span.meta-value, .hentry .project-meta li span.meta-value {
               width: 60%; } }
-      /* line 251, sass/layout/_main.scss */
+      /* line 252, sass/layout/_main.scss */
       article .project-meta li:nth-of-type(2n) span, .hentry .project-meta li:nth-of-type(2n) span {
         background-color: #e5e5e5; }
-  /* line 258, sass/layout/_main.scss */
+  /* line 259, sass/layout/_main.scss */
   article.page404, .hentry.page404 {
     text-align: center; }
-    /* line 260, sass/layout/_main.scss */
+    /* line 261, sass/layout/_main.scss */
     article.page404 .article-body, article.page404 p, article.page404 div, .hentry.page404 .article-body, .hentry.page404 p, .hentry.page404 div {
       text-align: center; }
-  /* line 264, sass/layout/_main.scss */
+  /* line 265, sass/layout/_main.scss */
   article .avatar-container, .hentry .avatar-container {
     float: left; }
-  /* line 267, sass/layout/_main.scss */
+  /* line 268, sass/layout/_main.scss */
   article .profile-container, .hentry .profile-container {
     padding-left: 30px;
     padding-bottom: 30px;
     display: block;
     overflow: hidden; }
-  /* line 273, sass/layout/_main.scss */
+  /* line 274, sass/layout/_main.scss */
   article .viraid, .hentry .viraid {
     background-color: #F2F2F2;
     padding: 3px 10px; }
-  /* line 277, sass/layout/_main.scss */
+  /* line 278, sass/layout/_main.scss */
   article .vira_logout, .hentry .vira_logout {
     background-color: #111;
     padding: 10px; }
-  /* line 282, sass/layout/_main.scss */
+  /* line 283, sass/layout/_main.scss */
   article .forms_buttons, .hentry .forms_buttons {
     text-align: center;
     margin: 35px 10px; }
-    /* line 285, sass/layout/_main.scss */
+    /* line 286, sass/layout/_main.scss */
     article .forms_buttons .login-show, .hentry .forms_buttons .login-show {
       padding: 12px 10px;
       margin: 10px;
       color: #FFFFFF;
       background-color: #5C5C5C;
       opacity: 0.85; }
-      /* line 292, sass/layout/_main.scss */
+      /* line 293, sass/layout/_main.scss */
       article .forms_buttons .login-show:hover, .hentry .forms_buttons .login-show:hover {
         opacity: 1; }
-      /* line 295, sass/layout/_main.scss */
+      /* line 296, sass/layout/_main.scss */
       article .forms_buttons .login-show:before, .hentry .forms_buttons .login-show:before {
         content: "\f13e";
         margin-right: 10px; }
-    /* line 302, sass/layout/_main.scss */
+    /* line 303, sass/layout/_main.scss */
     article .forms_buttons .register-show, .hentry .forms_buttons .register-show {
       padding: 12px 10px;
       margin: 10px;
       color: #FFFFFF;
       background-color: #FF3300;
       opacity: 0.85; }
-      /* line 309, sass/layout/_main.scss */
+      /* line 310, sass/layout/_main.scss */
       article .forms_buttons .register-show:hover, .hentry .forms_buttons .register-show:hover {
         opacity: 1; }
-      /* line 312, sass/layout/_main.scss */
+      /* line 313, sass/layout/_main.scss */
       article .forms_buttons .register-show:before, .hentry .forms_buttons .register-show:before {
         content: "\f0c0";
         margin-right: 10px; }
-  /* line 320, sass/layout/_main.scss */
+  /* line 321, sass/layout/_main.scss */
   article .login-container, .hentry .login-container {
     display: none; }
-    /* line 322, sass/layout/_main.scss */
+    /* line 323, sass/layout/_main.scss */
     article .login-container.form-display, .hentry .login-container.form-display {
       display: block; }
-    /* line 327, sass/layout/_main.scss */
+    /* line 328, sass/layout/_main.scss */
     article .login-container #loginform .login-username label, article .login-container #loginform .login-password label, .hentry .login-container #loginform .login-username label, .hentry .login-container #loginform .login-password label {
       width: 50px;
       display: inline-block; }
-    /* line 332, sass/layout/_main.scss */
+    /* line 333, sass/layout/_main.scss */
     article .login-container #loginform input, .hentry .login-container #loginform input {
       padding: 5px 10px; }
-  /* line 337, sass/layout/_main.scss */
+  /* line 338, sass/layout/_main.scss */
   article .register-container, .hentry .register-container {
     display: none; }
-    /* line 340, sass/layout/_main.scss */
+    /* line 341, sass/layout/_main.scss */
     article .register-container.form-display, .hentry .register-container.form-display {
       display: block; }
-    /* line 343, sass/layout/_main.scss */
+    /* line 344, sass/layout/_main.scss */
     article .register-container label.form_error, .hentry .register-container label.form_error {
       padding: 10px;
       color: #FF3300; }
-    /* line 347, sass/layout/_main.scss */
+    /* line 348, sass/layout/_main.scss */
     article .register-container form.register_form, .hentry .register-container form.register_form {
       padding: 10px; }
-      /* line 350, sass/layout/_main.scss */
+      /* line 351, sass/layout/_main.scss */
       article .register-container form.register_form table th, .hentry .register-container form.register_form table th {
         padding: 5px;
         width: 104px;
         text-align: left; }
-      /* line 358, sass/layout/_main.scss */
+      /* line 359, sass/layout/_main.scss */
       article .register-container form.register_form input, .hentry .register-container form.register_form input {
         outline: none;
         padding: 2px 10px;
         border-color: #E6E7E7; }
-        /* line 362, sass/layout/_main.scss */
+        /* line 363, sass/layout/_main.scss */
         article .register-container form.register_form input[type="submit"], .hentry .register-container form.register_form input[type="submit"] {
           padding: 5px 10px; }
-  /* line 368, sass/layout/_main.scss */
+  /* line 369, sass/layout/_main.scss */
   article .manual-title, .hentry .manual-title {
     font-size: 100%;
     position: relative;
@@ -2107,7 +2108,7 @@ article, .hentry {
     margin-top: 0px;
     padding: 10px 0px;
     width: 100%; }
-    /* line 378, sass/layout/_main.scss */
+    /* line 379, sass/layout/_main.scss */
     article .manual-title::after, .hentry .manual-title::after {
       -moz-transition: all, 0.2s, ease-out 1s 0s;
       -o-transition: all, 0.2s, ease-out 1s 0s;
@@ -2123,18 +2124,18 @@ article, .hentry {
       bottom: 0px;
       left: 0; }
 
-/* line 395, sass/layout/_main.scss */
+/* line 396, sass/layout/_main.scss */
 body.archive article {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline; }
 
-/* line 402, sass/layout/_main.scss */
+/* line 403, sass/layout/_main.scss */
 body.home header.article-title {
   display: none; }
 
-/* line 407, sass/layout/_main.scss */
+/* line 408, sass/layout/_main.scss */
 .secondary {
   width: 100%;
   float: left;
@@ -2144,13 +2145,13 @@ body.home header.article-title {
   padding-top: 20px;
   padding-bottom: 20px; }
   @media (min-width: 45em) {
-    /* line 407, sass/layout/_main.scss */
+    /* line 408, sass/layout/_main.scss */
     .secondary {
       width: 32.20339%;
       float: right;
       margin-right: 0; } }
 
-/* line 421, sass/layout/_main.scss */
+/* line 422, sass/layout/_main.scss */
 .widget {
   font-size: 90%;
   padding: 20px 20px 50px;
@@ -2163,10 +2164,10 @@ body.home header.article-title {
   -webkit-border-bottom-left-radius: 10px;
   border-bottom-left-radius: 10px;
   background: url('../images/pistachio-5.png?1462620348') bottom right no-repeat, rgba(230, 225, 219, 0.4); }
-  /* line 429, sass/layout/_main.scss */
+  /* line 430, sass/layout/_main.scss */
   .widget.widget_search {
     padding-bottom: 20px; }
-  /* line 432, sass/layout/_main.scss */
+  /* line 433, sass/layout/_main.scss */
   .widget h4.widgettitle {
     width: 100%;
     position: relative;
@@ -2176,7 +2177,7 @@ body.home header.article-title {
     margin-bottom: 20px;
     padding: 10px 0;
     color: #147e07; }
-    /* line 441, sass/layout/_main.scss */
+    /* line 442, sass/layout/_main.scss */
     .widget h4.widgettitle:before {
       -moz-transition: all, 0.2s, ease-out 1s 0s;
       -o-transition: all, 0.2s, ease-out 1s 0s;
@@ -2191,26 +2192,26 @@ body.home header.article-title {
       position: absolute;
       bottom: 0px;
       left: 0px; }
-  /* line 456, sass/layout/_main.scss */
+  /* line 457, sass/layout/_main.scss */
   .widget p {
     margin: 5px; }
-  /* line 459, sass/layout/_main.scss */
+  /* line 460, sass/layout/_main.scss */
   .widget i.fa:before, .widget nav.main-menu i.menu-search-area:before, nav.main-menu .widget i.menu-search-area:before, .widget article .forms_buttons i.login-show:before, article .forms_buttons .widget i.login-show:before, .widget .hentry .forms_buttons i.login-show:before, .hentry .forms_buttons .widget i.login-show:before, .widget article .forms_buttons i.register-show:before, article .forms_buttons .widget i.register-show:before, .widget .hentry .forms_buttons i.register-show:before, .hentry .forms_buttons .widget i.register-show:before, .widget .comment-area .comment-metadata i.edit-link:before, .comment-area .comment-metadata .widget i.edit-link:before, .widget .comment-area i.reply:before, .comment-area .widget i.reply:before {
     padding-right: 10px;
     color: #5C5C5C;
     font-size: 120%;
     vertical-align: middle; }
-  /* line 465, sass/layout/_main.scss */
+  /* line 466, sass/layout/_main.scss */
   .widget dl, .widget menu, .widget ol, .widget ul {
     margin: 0px;
     padding: 0px; }
-  /* line 469, sass/layout/_main.scss */
+  /* line 470, sass/layout/_main.scss */
   .widget li {
     line-height: 180%; }
-  /* line 472, sass/layout/_main.scss */
+  /* line 473, sass/layout/_main.scss */
   .widget.widget_social_widget {
     background-color: #FFFFFF; }
-    /* line 474, sass/layout/_main.scss */
+    /* line 475, sass/layout/_main.scss */
     .widget.widget_social_widget li:hover {
       -moz-transition: all 0.2s ease-in-out 0s;
       -o-transition: all 0.2s ease-in-out 0s;
@@ -2219,22 +2220,22 @@ body.home header.article-title {
       transition: all 0.2s ease-in-out 0s;
       background-color: #F2F2F2; }
 
-/* line 486, sass/layout/_main.scss */
+/* line 487, sass/layout/_main.scss */
 ul.widget-list li {
   display: list-item; }
-  /* line 488, sass/layout/_main.scss */
+  /* line 489, sass/layout/_main.scss */
   ul.widget-list li img {
     margin: 5px 12px 5px 5px;
     vertical-align: middle; }
 
-/* line 496, sass/layout/_main.scss */
+/* line 497, sass/layout/_main.scss */
 ul.social-links li {
   padding: 5px; }
-  /* line 498, sass/layout/_main.scss */
+  /* line 499, sass/layout/_main.scss */
   ul.social-links li a.sicon {
     display: block;
     width: 100%; }
-    /* line 501, sass/layout/_main.scss */
+    /* line 502, sass/layout/_main.scss */
     ul.social-links li a.sicon:before {
       text-align: center;
       margin: 0px 12px 0px 3px;
@@ -2244,46 +2245,46 @@ ul.social-links li {
       display: inline-block;
       background-image: url('../images/social-icons.png');
       vertical-align: middle; }
-    /* line 512, sass/layout/_main.scss */
+    /* line 513, sass/layout/_main.scss */
     ul.social-links li a.sicon.google-plus:before {
       background-position: 0 0; }
-    /* line 515, sass/layout/_main.scss */
+    /* line 516, sass/layout/_main.scss */
     ul.social-links li a.sicon.facebook:before {
       background-position: -35.7px 0; }
-    /* line 518, sass/layout/_main.scss */
+    /* line 519, sass/layout/_main.scss */
     ul.social-links li a.sicon.linkedin:before {
       background-position: -71px 0; }
-    /* line 521, sass/layout/_main.scss */
+    /* line 522, sass/layout/_main.scss */
     ul.social-links li a.sicon.instagram:before {
       background-position: -106px 0; }
-    /* line 524, sass/layout/_main.scss */
+    /* line 525, sass/layout/_main.scss */
     ul.social-links li a.sicon.catalog:before {
       background-position: -141px 0; }
-    /* line 527, sass/layout/_main.scss */
+    /* line 528, sass/layout/_main.scss */
     ul.social-links li a.sicon.envelope:before {
       background-position: -177px 0; }
-    /* line 530, sass/layout/_main.scss */
+    /* line 531, sass/layout/_main.scss */
     ul.social-links li a.sicon.unlock:before {
       background-position: -213px 0; }
 
-/* line 539, sass/layout/_main.scss */
+/* line 540, sass/layout/_main.scss */
 .all-products article {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline; }
   @media (min-width: 45em) {
-    /* line 539, sass/layout/_main.scss */
+    /* line 540, sass/layout/_main.scss */
     .all-products article {
       width: 49.15254%;
       float: left;
       margin-right: 1.69492%; }
-      /* line 543, sass/layout/_main.scss */
+      /* line 544, sass/layout/_main.scss */
       .all-products article:nth-of-type(2n) {
         width: 49.15254%;
         float: right;
         margin-right: 0; } }
-/* line 549, sass/layout/_main.scss */
+/* line 550, sass/layout/_main.scss */
 .all-products .single-cat-title {
   overflow: hidden;
   *zoom: 1;
@@ -2292,12 +2293,12 @@ ul.social-links li {
   border-bottom: 1px solid #E6E7E7;
   margin-bottom: 20px;
   width: 100%; }
-  /* line 556, sass/layout/_main.scss */
+  /* line 557, sass/layout/_main.scss */
   .all-products .single-cat-title h3, .all-products .single-cat-title h4, .all-products .single-cat-title h2 {
     margin: 0;
     padding: 10px 0;
     display: inline-block; }
-    /* line 560, sass/layout/_main.scss */
+    /* line 561, sass/layout/_main.scss */
     .all-products .single-cat-title h3::after, .all-products .single-cat-title h4::after, .all-products .single-cat-title h2::after {
       -moz-transition: all, 0.2s, ease-out 1s 0s;
       -o-transition: all, 0.2s, ease-out 1s 0s;
@@ -2313,16 +2314,16 @@ ul.social-links li {
       bottom: 0px;
       left: 0; }
 
-/* line 577, sass/layout/_main.scss */
+/* line 578, sass/layout/_main.scss */
 .contact-area aside {
   background-color: #FFFFFF; }
 
-/* line 581, sass/layout/_main.scss */
+/* line 582, sass/layout/_main.scss */
 .contact-odd, .contact-even {
   padding: 15px; }
 
 /* line 432, sass/layout/_main.scss */
-/* line 584, sass/layout/_main.scss */
+/* line 585, sass/layout/_main.scss */
 .contact-odd h4, .contact-even h4 {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
@@ -2331,78 +2332,78 @@ ul.social-links li {
   font-weight: bold;
   margin: 0px auto; }
 
-/* line 591, sass/layout/_main.scss */
+/* line 592, sass/layout/_main.scss */
 .contact-odd {
   background-color: #F2F2F2;
   border-top: 1px solid #E6E7E7;
   border-bottom: 1px solid #E6E7E7; }
 
-/* line 598, sass/layout/_main.scss */
+/* line 599, sass/layout/_main.scss */
 div.panel-grid {
   margin-bottom: 5px !important; }
 
-/* line 602, sass/layout/_main.scss */
+/* line 603, sass/layout/_main.scss */
 .comment-area img.avatar {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%; }
-/* line 605, sass/layout/_main.scss */
+/* line 606, sass/layout/_main.scss */
 .comment-area .bypostauthor .fn {
   color: #FF3300;
   padding: 5px; }
-/* line 609, sass/layout/_main.scss */
+/* line 610, sass/layout/_main.scss */
 .comment-area .comment-metadata {
   font-size: smaller;
   float: right; }
-  /* line 613, sass/layout/_main.scss */
+  /* line 614, sass/layout/_main.scss */
   .comment-area .comment-metadata .edit-link {
     padding: 5px;
     color: #FF3300; }
-    /* line 616, sass/layout/_main.scss */
+    /* line 617, sass/layout/_main.scss */
     .comment-area .comment-metadata .edit-link:before {
       content: "\f040";
       padding: 5px;
       vertical-align: middle; }
-/* line 624, sass/layout/_main.scss */
+/* line 625, sass/layout/_main.scss */
 .comment-area .reply {
   float: right; }
-  /* line 626, sass/layout/_main.scss */
+  /* line 627, sass/layout/_main.scss */
   .comment-area .reply:before {
     content: "\f112";
     padding: 5px;
     vertical-align: middle;
     color: #FF3300; }
-/* line 635, sass/layout/_main.scss */
+/* line 636, sass/layout/_main.scss */
 .comment-area .comment {
   display: block;
   overflow: hidden; }
-  /* line 638, sass/layout/_main.scss */
+  /* line 639, sass/layout/_main.scss */
   .comment-area .comment .comment-body {
     overflow: hidden; }
-/* line 643, sass/layout/_main.scss */
+/* line 644, sass/layout/_main.scss */
 .comment-area .comment-content {
   padding: 20px; }
 @media (min-width: 45em) {
-  /* line 646, sass/layout/_main.scss */
+  /* line 647, sass/layout/_main.scss */
   .comment-area .depth-1 {
     margin-left: 0; } }
 @media (min-width: 45em) {
-  /* line 651, sass/layout/_main.scss */
+  /* line 652, sass/layout/_main.scss */
   .comment-area .depth-2 {
     margin-left: 20px; } }
 @media (min-width: 45em) {
-  /* line 656, sass/layout/_main.scss */
+  /* line 657, sass/layout/_main.scss */
   .comment-area .depth-3 {
     margin-left: 40px; } }
 @media (min-width: 45em) {
-  /* line 661, sass/layout/_main.scss */
+  /* line 662, sass/layout/_main.scss */
   .comment-area .depth-4 {
     margin-left: 60px; } }
-/* line 666, sass/layout/_main.scss */
+/* line 667, sass/layout/_main.scss */
 .comment-area .even > article {
   background-color: #F2F2F2; }
 
-/* line 671, sass/layout/_main.scss */
+/* line 672, sass/layout/_main.scss */
 #commentform label {
   float: left;
   padding: 0 10px;
@@ -2410,36 +2411,36 @@ div.panel-grid {
   width: 40%; }
 
 /*-----------------page templates correction ----------------*/
-/* line 683, sass/layout/_main.scss */
+/* line 684, sass/layout/_main.scss */
 .site-main.full-weight .banner-space {
   min-height: 0px; }
-/* line 686, sass/layout/_main.scss */
+/* line 687, sass/layout/_main.scss */
 .site-main.full-weight .primary {
   width: 100% !important;
   margin: 0px !important;
   padding: 0px !important; }
-  /* line 690, sass/layout/_main.scss */
+  /* line 691, sass/layout/_main.scss */
   .site-main.full-weight .primary article, .site-main.full-weight .primary .hentry {
     width: 100% !important;
     margin: 0px !important;
     padding: 0px !important; }
-/* line 696, sass/layout/_main.scss */
+/* line 697, sass/layout/_main.scss */
 .site-main.full-weight .secondary {
   display: none; }
-/* line 701, sass/layout/_main.scss */
+/* line 702, sass/layout/_main.scss */
 .site-main.without-sidebar .primary {
   width: 100%;
   float: left;
   margin-right: 1.69492%;
   display: inline; }
-  /* line 703, sass/layout/_main.scss */
+  /* line 704, sass/layout/_main.scss */
   .site-main.without-sidebar .primary article.hentry {
     overflow: hidden;
     width: 100%;
     float: left;
     margin-right: 1.69492%;
     display: inline; }
-/* line 708, sass/layout/_main.scss */
+/* line 709, sass/layout/_main.scss */
 .site-main.without-sidebar .secondary {
   display: none; }
 

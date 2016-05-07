@@ -101,7 +101,7 @@ function itstar_before_row_if_2( $field_args, $field ) {
 /******************************************************************/
 /*--------------------Product Features-------------------------------*/
 /******************************************************************/
- add_action( 'cmb2_init', 'itstar_register_product_features_metabox' );
+// add_action( 'cmb2_init', 'itstar_register_product_features_metabox' );
 function itstar_register_product_features_metabox() {
 
 	// Start with an underscore to hide fields from custom fields list
@@ -160,7 +160,7 @@ function itstar_register_product_features_metabox() {
 /******************************************************************/
 /*--------------------Project Images-------------------------------*/
 /******************************************************************/
-add_action( 'cmb2_init', 'itstar_register_project_date_metabox' );
+//add_action( 'cmb2_init', 'itstar_register_project_date_metabox' );
 /**
  * Hook in and add a demo metabox. Can only happen on the 'cmb2_init' hook.
  */
@@ -201,7 +201,7 @@ function itstar_register_project_date_metabox() {
 /******************************************************************/
 /*--------------------Project Features-------------------------------*/
 /******************************************************************/
- add_action( 'cmb2_init', 'itstar_register_project_features_metabox' );
+// add_action( 'cmb2_init', 'itstar_register_project_features_metabox' );
 function itstar_register_project_features_metabox() {
 
 	// Start with an underscore to hide fields from custom fields list
@@ -250,7 +250,7 @@ function itstar_register_project_features_metabox() {
 /******************************************************************/
 /*--------------------Project Images-------------------------------*/
 /******************************************************************/
-add_action( 'cmb2_init', 'itstar_register_project_images_metabox' );
+//add_action( 'cmb2_init', 'itstar_register_project_images_metabox' );
 /**
  * Hook in and add a demo metabox. Can only happen on the 'cmb2_init' hook.
  */
