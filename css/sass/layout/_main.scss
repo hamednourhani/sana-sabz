@@ -136,6 +136,8 @@ article,.hentry{
 	}
 	
 	padding : 20px;
+	@include border-top-right-radius(10px);
+	@include border-bottom-left-radius(10px);
 	background: image_url('pistachio-8.png') bottom right no-repeat,$glassyCream;
 	background-position: 101% 100%;
 	.article-title{
@@ -420,7 +422,12 @@ body.home{
 	padding:20px 20px 50px;
 	background-color : $cream;
 	margin-bottom : 20px;
+	@include border-top-right-radius(10px);
+	@include border-bottom-left-radius(10px);
 	background : image_url('pistachio-5.png') bottom right no-repeat ,$glassyCream;
+	&.widget_search{
+		padding-bottom : 20px;
+	}
 	h4.widgettitle{
 		width : 100%;
 		position : relative;
