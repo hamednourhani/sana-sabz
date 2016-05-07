@@ -44,6 +44,7 @@ body{
 			font-size : 150%;
 		}
 	}
+
 }
 .banner-wrapper{
 	width : 100%;
@@ -674,4 +675,38 @@ div.panel-grid {
     	width: 40%;
 	}
 
+}
+
+/*-----------------page templates correction ----------------*/
+.site-main{
+	&.full-weight {
+		.banner-space {
+			min-height : 0px;
+		}
+		.primary {
+			width: 100% !important;
+			margin: 0px !important;
+			padding: 0px !important;
+			article, .hentry {
+				width: 100% !important;
+				margin: 0px !important;
+				padding: 0px !important;
+			}
+		}
+		.secondary{
+			display : none;
+		}
+	}
+	&.without-sidebar{
+		.primary {
+			@include span-columns(12, 12);
+			article.hentry{
+				overflow: hidden;
+				@include span-columns(12,12);
+			}
+		}
+		.secondary{
+			display : none;
+		}
+	}
 }
