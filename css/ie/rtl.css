@@ -264,7 +264,7 @@ body {
 .top-bar {
   text-align: left;
   padding-right: 30px;
-  padding-left: auto; }
+  padding-left: 1px; }
   /* line 6, ../sass/rtl/layout/_header.scss */
   .top-bar .lang-icon {
     padding-left: auto;
@@ -274,11 +274,11 @@ body {
     font-family: "Weblogma_Yekan";
     float: left;
     padding-left: 25px;
-    padding-right: auto; }
+    padding-right: 1px; }
 
 /* line 23, ../sass/rtl/layout/_header.scss */
 .hero .logo-wrapper {
-  padding-right: auto;
+  padding-right: 1px;
   padding-left: 40px; }
   /* line 26, ../sass/rtl/layout/_header.scss */
   .hero .logo-wrapper a.menu-toggler {
@@ -389,7 +389,7 @@ nav.main-menu .responsive-menu {
 
 /* line 109, ../sass/rtl/layout/_header.scss */
 ul.main-nav > li.menu-item-has-children > a:after {
-  padding-left: auto;
+  padding-left: 1px;
   padding-right: 5px;
   right: auto;
   left: 1px; }
@@ -543,7 +543,7 @@ article, .hentry {
     float: right; }
   /* line 74, ../sass/rtl/layout/_main.scss */
   article .profile-container, .hentry .profile-container {
-    padding-left: auto;
+    padding-left: 1px;
     padding-right: 30px; }
   /* line 80, ../sass/rtl/layout/_main.scss */
   article .forms_buttons .login-show:before, .hentry .forms_buttons .login-show:before {
@@ -601,7 +601,7 @@ article, .hentry {
   /* line 137, ../sass/rtl/layout/_main.scss */
   .widget i.fa:before, .widget .comment-area .comment-metadata i.edit-link:before, .comment-area .comment-metadata .widget i.edit-link:before, .widget .comment-area i.reply:before, .comment-area .widget i.reply:before {
     padding-left: 10px;
-    padding-right: auto; }
+    padding-right: 1px; }
 
 /* line 146, ../sass/rtl/layout/_main.scss */
 .all-products article {
