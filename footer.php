@@ -10,7 +10,7 @@
 
 			<footer class="site-footer">
 				<section class="layout">
-					<span class="site-credit"><?php echo __( "Vira Co © 2015. All rights reserved.","itstar"); ?></span>
+					<span class="site-credit"><?php echo __( "Sana © 2016. All rights reserved.","itstar"); ?></span>
 
 					<span class="site-designer">
 						<a href="http://karait.com"><?php echo __('Designed ','itstar');?></a>

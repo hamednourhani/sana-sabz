@@ -955,11 +955,11 @@ class social_widget extends WP_Widget {
 
 // Register and load the widget
 function itstar_widget() {
-  register_widget( 'last_products_widget' );
-  register_widget( 'last_projects_widget' );
+//  register_widget( 'last_products_widget' );
+//  register_widget( 'last_projects_widget' );
   register_widget( 'last_posts_by_cat_widget' );
   register_widget( 'contact_info_widget' );
-  register_widget( 'social_widget' );
+//  register_widget( 'social_widget' );
 }
 add_action( 'widgets_init', 'itstar_widget' );
 
@@ -1240,7 +1240,7 @@ function itstar_create_account(){
     
 
 }
-add_action('init','itstar_create_account');
+//add_action('init','itstar_create_account');
 
 
 // registration and login form shortcode
@@ -1314,7 +1314,7 @@ function itstar_user_register( $atts, $content = null ) {
         return $register_form;
     }
 }
-add_shortcode( 'vira_register', 'itstar_user_register' );
+//add_shortcode( 'vira_register', 'itstar_user_register' );
 
 //user login shortcode
 function itstar_user_login(){
@@ -1323,7 +1323,7 @@ function itstar_user_login(){
       return '<div class="login-container">'.wp_login_form( $args ).'</div>';
   }
 }
-add_shortcode( 'vira_login', 'itstar_user_login' );
+//add_shortcode( 'vira_login', 'itstar_user_login' );
 
 
 // user profile shortcode
@@ -1367,7 +1367,7 @@ function itstar_user_profile( $atts, $content = null ) {
 
     return $user_profile;
 }
-add_shortcode( 'vira_profile', 'itstar_user_profile' );
+//add_shortcode( 'vira_profile', 'itstar_user_profile' );
 
 function itstar_projects_in_cat( $atts, $content = null ) {
    global $wp_query;
@@ -1405,7 +1405,7 @@ $projects = get_posts(array(
   <?php } 
   wp_reset_postdata();
 }
-add_shortcode( 'projects', 'itstar_projects_in_cat' );
+//add_shortcode( 'projects', 'itstar_projects_in_cat' );
 
 
 /*-----------Vira Products in Cat-------------------------------*/
@@ -1469,10 +1469,10 @@ $products = get_posts(array(
   <?php } 
   wp_reset_postdata();
 }
-add_shortcode( 'products', 'itstar_products_in_cat' );
+//add_shortcode( 'products', 'itstar_products_in_cat' );
 //--------------------- user extra fields ----------------------
-add_action( 'show_user_profile', 'itstar_extra_user_profile_fields' );
-add_action( 'edit_user_profile', 'itstar_extra_user_profile_fields' );
+//add_action( 'show_user_profile', 'itstar_extra_user_profile_fields' );
+//add_action( 'edit_user_profile', 'itstar_extra_user_profile_fields' );
 function itstar_extra_user_profile_fields( $user ) {
 ?>
   <h3><?php _e("Extra profile information", "itstar"); ?></h3>
@@ -1529,8 +1529,8 @@ function itstar_extra_user_profile_fields( $user ) {
 <?php
 }
 
-add_action( 'personal_options_update', 'itstar_save_extra_user_profile_fields' );
-add_action( 'edit_user_profile_update', 'itstar_save_extra_user_profile_fields' );
+//add_action( 'personal_options_update', 'itstar_save_extra_user_profile_fields' );
+//add_action( 'edit_user_profile_update', 'itstar_save_extra_user_profile_fields' );
 function itstar_save_extra_user_profile_fields( $user_id ) {
   $saved = false;
   if ( current_user_can( 'edit_user', $user_id ) ) {
@@ -1583,7 +1583,7 @@ function itstar_send_registration_admin_email($user_id){
   $headers = 'From: <info@itstar.com>' . "\r\n";           
   wp_mail($to, $subject, $message); 
 }
-add_action( 'user_register', 'itstar_send_registration_admin_email' );
+//add_action( 'user_register', 'itstar_send_registration_admin_email' );
 
 
 function itstar_user_registration_welcome_email($user_id){
@@ -1613,7 +1613,7 @@ function itstar_user_registration_welcome_email($user_id){
   $headers = 'From: <info@itstar.com>'."\r\n";           
   wp_mail($to, $subject, $message); 
 }
-add_action( 'user_register', 'itstar_user_registration_welcome_email' );
+//add_action( 'user_register', 'itstar_user_registration_welcome_email' );
 
 
 //add columns to User panel list page
@@ -1624,7 +1624,7 @@ function Viradeco_add_user_columns($column) {
     
     return $column;
 }
-add_filter( 'manage_users_columns', 'itstar_add_user_columns' );
+//add_filter( 'manage_users_columns', 'itstar_add_user_columns' );
 
 //add the data
 function itstar_add_user_column_data( $val, $column_name, $user_id ) {
@@ -1644,7 +1644,7 @@ function itstar_add_user_column_data( $val, $column_name, $user_id ) {
     }
     return;
 }
-add_filter( 'manage_users_custom_column', 'itstar_add_user_column_data', 10, 3 );
+//add_filter( 'manage_users_custom_column', 'itstar_add_user_column_data', 10, 3 );
 
 function itstar_viraclub_id($user_id){
   global $wpdb;
@@ -1681,7 +1681,7 @@ function vira_login_redirect( $redirect_to, $request, $user ) {
   }
 }
 
-add_filter( 'login_redirect', 'vira_login_redirect', 10, 3 ); 
+//add_filter( 'login_redirect', 'vira_login_redirect', 10, 3 );
 
 
 function itstar_search_form( $form ) {
@@ -1732,6 +1732,6 @@ $mylink = get_permalink();
 return '<p>'.__(' -- Only registered Users can Download the Catalog -- ','itstar').'</p>';
 }
 }
-add_shortcode('onlyusers', 'itstar_user_only');
+//add_shortcode('onlyusers', 'itstar_user_only');
 
 ?>

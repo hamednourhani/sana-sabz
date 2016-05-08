@@ -5,17 +5,17 @@
 @import "susyone";
 
 // theme information-------------------
-@import "theme/theme";
+//@import "theme/theme";
 
 
 // fonts  -------------------------
-@import "fonts/fonts";
+@import "rtl/fonts/fonts";
 
 // normalize --------------------
-@import "base/normalize";
+//@import "base/normalize";
 
 // typography -------------------
-@import "fonts/typography";
+//@import "fonts/typography";
 
 //font-awesome mixins -----------
 @import "font-awesome/variables";
@@ -23,16 +23,14 @@
 
 // basic styles --------------
 
-@import "base/variables";
-@import "base/functions";
-@import "base/mixins";
-@import "base/base";
+@import "rtl/base/variables";
+@import "rtl/base/base";
 
 
 // layout --------------------
-@import "layout/header";
-@import "layout/main";
-@import "layout/footer";
+@import "rtl/layout/header";
+@import "rtl/layout/main";
+@import "rtl/layout/footer";
 
 
 // print layout --------------
@@ -40,26 +38,15 @@
 
 
 // modules ------------------
-@import "modules/btn";
-//@import "modules/dividers";
-@import "modules/forms";
 @import "modules/tables";
-//@import "modules/others";
-//@import "modules/tabs";
 @import "modules/comments";
-//@import "modules/please-wait";
-//@import "modules/sk-wave";
-//@import "modules/sk-cube";
 @import "modules/pagination";
-@import "modules/slider";
 
 
 
 
 
 // utilities --------------------
-@import "utilities/settings";
-@import "utilities/utilities";
 
 //ie8 -----------------------
 //@import "base/ie8";

@@ -1,0 +1,183 @@
+/* header style */
+.top-bar{
+	text-align : left;
+	padding-right : 30px;
+	padding-left : auto;
+	.lang-icon{
+		padding :{
+			left : auto;
+			right : 8px;
+		}
+	}
+	#lang_sel_list {
+	    font-family: $web_yekan;
+
+
+	    float : left;
+		padding-left : 25px;
+		padding-right : auto;
+	}
+	 
+}
+.hero{
+	.logo-wrapper{
+		padding-right:auto;
+		padding-left:40px;
+		a.menu-toggler{
+			left : auto;
+			right : 0px;
+		}
+	}
+	.site-desc{
+		float : left;
+		&::after {
+			left : -43px;
+			right : auto;
+			background: image_url('leaf-right-50-rtl.png') top left no-repeat;
+		}
+
+
+	}
+
+}
+
+// ---------- NAVIGATION---------------------------------
+@include keyframes(move-up) {
+  0%   { opacity : 0;display:none; }
+  100% { opacity : 1;display :inline-block; }
+}
+@include keyframes(move-down) {
+  0%   { opacity : 1;display : inline-block; }
+  100% { opacity : 0;display : none  }
+}
+
+@include keyframes(move-slow) {
+  0%   { opacity : 1;display : inline-block; }
+  100% { opacity : 1;display : inline-block  }
+}
+
+
+
+
+ 
+ 
+nav.main-menu{
+
+	.menu-search-area{
+		background:image_url('pistachio-4.png') bottom right no-repeat,$green;
+		left : 0px;
+		right : auto;
+		input{
+			float : right;
+
+		}
+		&:before{
+			left: 25px;
+			right: auto;
+
+		}
+	}
+	
+	.responsive-menu{
+		right: -250px;
+		left : auto;
+		&.show-menu{
+			transform : translateX(-250px);
+		}
+		a.close-responsive{
+			float : left;
+		}
+		ul.responsive-nav{
+			ul.sub-menu{
+				margin-right: 30px;
+				margin-left : auto;
+				a{
+					&:before{
+						right : -20px;
+						left : auto;
+					}
+				}
+			}
+
+
+		}
+	}
+	
+}
+	
+ul.main-nav{
+	&>li.menu-item-has-children>a:after{
+		padding-left: auto;
+		padding-right: 5px;
+		right: auto;
+		left: 1px;
+	}
+	
+	&>li>ul.sub-menu,li ul.sub-menu{
+		left : auto;
+		right : -30%;
+		li.menu-item-has-children>a:after{
+			content: "\f0d9";
+			right: auto;
+			left: 12px;
+		}
+	}
+
+	&>li>ul.sub-menu li ul{
+		right: 100%;
+		left : auto;
+	}
+	ul.sub-menu li:hover ul{
+		left : auto;
+		right : 100%;
+	}
+	li.item-home a:before{
+		margin-left: 7px;
+		margin-right: auto;
+	}
+
+	&>li.mega-menu{
+		&>ul.sub-menu{
+			right: -85%;
+			left : auto;
+			&>.sub-menu-wrap>li{
+				margin-left : auto;
+				border-left : 0px ;
+				border-right : 1px solid $grey2;
+					&:first-child{
+						border : 0px;
+					}
+				@include at-breakpoint(62em){
+					@include span-columns(2,12);
+					margin-right : auto;
+				}
+				margin-right : auto;
+				ul.sub-menu{
+					right : auto;
+					left : auto;
+					top : auto;
+				}
+			}
+		}
+	}
+	.product-item {
+		img{
+			margin-left : 5px;
+			margin-right : auto;
+		}
+	}
+
+}
+li.mega-menu{
+	li.menu-item{
+		&>a img {
+		    float: right;
+			margin-left : 5px;
+			margin-right : auto;
+		}
+		&>a{
+		    text-align : right;
+		}
+	}
+}
+

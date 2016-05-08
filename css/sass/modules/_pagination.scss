@@ -8,11 +8,11 @@ nav.pagination{
 		padding : 5px 10px;
 		background-color: $white2;
 		&:hover {
-			background-color: $black1;
+			background-color: $green;
 			color : $white2;
 		}
 		&.current{
-			background-color: $black1;
+			background-color: $red;
 			color : $white2;
 		}
 	}

@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Viradeco\n"
-"POT-Creation-Date: 2016-04-23 08:45+0430\n"
-"PO-Revision-Date: 2016-04-23 08:46+0430\n"
+"Project-Id-Version: wordpress theme\n"
+"POT-Creation-Date: 2016-05-08 09:01+0430\n"
+"PO-Revision-Date: 2016-05-08 09:26+0430\n"
 "Last-Translator: \n"
-"Language-Team: iTstar <info@itstar.ir>\n"
-"Language: fa_IR\n"
+"Language-Team: iTstar <itstar@gmail.com>\n"
+"Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,32 +13,30 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: _e;__;_xfn\n"
+"X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: .sass-cache\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
 "X-Poedit-SearchPathExcluded-1: library/cmb\n"
-"X-Poedit-SearchPathExcluded-2: plugins\n"
-"X-Poedit-SearchPathExcluded-3: temp\n"
-"X-Poedit-SearchPathExcluded-4: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: .sass-cache\n"
 
 #: 404.php:20
 msgid "This is somewhat embarrassing, isn&rsquo;t it?"
-msgstr "متاسفانه صفحه مورد نظر یافت نشد."
+msgstr "متاسفانه صفحه مورد نظر یافت نشد"
 
 #: 404.php:21
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr ""
-"به نظر می رسد صفحه ای که به دنبال آن هستید در این آدرس وجود ندارد. جستجو می "
-"تواند به شما کمک نماید!"
+"به نظر می رسد صفحه ای که به دنبال آن هستید یافت نشد جستجو می تواند به شما "
+"کمک نماید."
 
 #: comments.php:18
 #, php-format
 msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr "%1$s دیدگاه در  &ldquo;%2$s&rdquo;"
+msgstr "%1$s دیدگاه برای  &ldquo;%2$s&rdquo;"
 
 #: comments.php:28
 msgid "Reply<i class=\" fa fa-mail-reply\"></i>"
-msgstr "پاسخ"
+msgstr "<i class=\" fa fa-mail-reply\"></i> پاسخ"
 
 #: comments.php:34
 msgid "<i class=\"icon-left-open\"></i> Older Comments"
@@ -46,466 +44,467 @@ msgstr "دیدگاه های قدیمی تر"
 
 #: comments.php:35
 msgid "Newer Comments <i class=\"icon-right-open\"></i>"
-msgstr "دیدگاه های جدیدتر"
+msgstr "دیدگاه های جدید تر"
 
 #: comments.php:40
 msgid "Comments are closed."
 msgstr "دیدگاه ها بسته است."
 
-#: footer.php:45
-msgid "Vira Co © 2015. All rights reserved."
-msgstr "شرکت ویرا © 1394 . تمامی حقوق محفوظ می باشد."
+#: footer.php:13
+msgid "Sana © 2016. All rights reserved."
+msgstr "سنا چوب © 2016 . تمامی حقوق محفوظ می باشد."
 
-#: footer.php:48
+#: footer.php:16
 msgid "Designed "
-msgstr "طراحی سایت"
+msgstr "طراحی سایت "
 
-#: footer.php:49
+#: footer.php:17
 msgid "By Farakaranet "
 msgstr "توسط فراکارانت"
 
-#: functions.php:92
-msgid "Slider Size"
-msgstr ""
-
 #: functions.php:93
-msgid "Slider Thumb"
-msgstr ""
+msgid "Slider Size"
+msgstr "سایت اسلایدشو"
 
-#: functions.php:121
+#: functions.php:94
+msgid "Slider Thumb"
+msgstr "تصویر بند انگشتی اسلایدشو"
+
+#: functions.php:122
 msgid "1200px by 500px"
 msgstr ""
 
-#: functions.php:122
+#: functions.php:123
 msgid "30px by 30px"
 msgstr ""
 
-#: functions.php:123
+#: functions.php:124
 msgid "53px by 53px"
 msgstr ""
 
-#: functions.php:124
+#: functions.php:125
 msgid "130px by 130px"
 msgstr ""
 
-#: functions.php:179
+#: functions.php:180
 msgid "Sidebar"
 msgstr "ستون کناری"
 
-#: functions.php:180
+#: functions.php:181
 msgid "The first (primary) sidebar."
-msgstr "ستون کناری نخست"
+msgstr "ستون کناری"
 
-#: functions.php:188
+#: functions.php:189
 msgid "Footer First"
-msgstr "فوتر نخست"
+msgstr "اولین ستون پانوشت"
 
-#: functions.php:189 functions.php:198 functions.php:207 functions.php:216
+#: functions.php:190 functions.php:199 functions.php:208 functions.php:217
 msgid "The first footer widget area"
-msgstr "منطقه ابزارک فوتر نخست"
+msgstr "اولین ستون ابزارک های پانوشت"
 
-#: functions.php:197
+#: functions.php:198
 msgid "Footer First Col2"
-msgstr "فوتر نخست ستون 2"
+msgstr "دومین ستون پانوشت"
 
-#: functions.php:206
+#: functions.php:207
 msgid "Footer First Col3"
-msgstr "فوتر نخست ستون 3"
+msgstr "سومین ستون پانوشت"
 
-#: functions.php:215
+#: functions.php:216
 msgid "Footer First Col4"
-msgstr "فوتر نخست ستون 4"
-
-#: functions.php:224
-msgid "Footer Second"
-msgstr "فوتر دوم"
+msgstr "چهارمین ستون پانوشت"
 
 #: functions.php:225
-msgid "The second footer widget area"
-msgstr "منطقه ابزارک فوتر دوم"
+msgid "Footer Second"
+msgstr "پانوشت بخش دوم"
 
-#: functions.php:280
+#: functions.php:226
+msgid "The second footer widget area"
+msgstr "دومین بخش ابزارک های پانوشت"
+
+#: functions.php:281
 #, php-format
 msgid "<cite class=\"fn\">%1$s</cite> %2$s"
 msgstr ""
 
-#: functions.php:280
+#: functions.php:281
 msgid "(Edit)"
 msgstr "(ویرایش)"
 
-#: functions.php:281
+#: functions.php:282
 msgid "F jS, Y"
 msgstr ""
 
-#: functions.php:286
+#: functions.php:287
 msgid "Your comment is awaiting moderation."
-msgstr "دیدگاه شما در دست بررسی است"
+msgstr "دیدگاه شما در دست بررسی است."
 
-#: functions.php:309
+#: functions.php:310
 msgid "<i class=\"fa fa-angle-double-left\"></i>"
 msgstr "<i class=\"fa fa-angle-double-right\"></i>"
 
-#: functions.php:310
+#: functions.php:311
 msgid "<i class=\"fa fa-angle-double-right\"></i>"
 msgstr "<i class=\"fa fa-angle-double-left\"></i>"
 
-#: functions.php:369
+#: functions.php:370
 msgid "Last Products Widget"
 msgstr "ابزارک آخرین محصولات"
 
-#: functions.php:372
+#: functions.php:373
 msgid "Display Last Products"
-msgstr "نمایش آخرین محصولات در یک دسته بندی خاص"
+msgstr "نمایش آخرین محصولات"
 
-#: functions.php:421
+#: functions.php:422
 msgid "Last Products"
 msgstr "آخرین محصولات"
 
-#: functions.php:436 functions.php:545 functions.php:653 functions.php:763
-#: functions.php:900
+#: functions.php:437 functions.php:546 functions.php:654 functions.php:764
+#: functions.php:901
 msgid "Title:"
 msgstr "عنوان : "
 
-#: functions.php:440
+#: functions.php:441
 msgid "product Numbers :"
-msgstr "تعداد محصولات : "
+msgstr "تعداد محصول : "
 
-#: functions.php:444
+#: functions.php:445
 msgid "Product Category :"
 msgstr "دسته بندی محصولات : "
 
-#: functions.php:479
+#: functions.php:480
 msgid "Last Projects Widget"
 msgstr "ابزارک آخرین پروژه ها"
 
-#: functions.php:482
+#: functions.php:483
 msgid "Display Last Projects"
 msgstr "نمایش آخرین پروژه ها"
 
-#: functions.php:530
+#: functions.php:531
 msgid "Last Projects"
 msgstr "آخرین پروژه ها"
 
-#: functions.php:549
+#: functions.php:550
 msgid "Project Numbers :"
-msgstr "تعداد پروژه ها: "
+msgstr "تعداد پروژه : "
 
-#: functions.php:553
+#: functions.php:554
 msgid "Project Category :"
-msgstr "دسته بندی :"
+msgstr "دسته بندی پروژه : "
 
-#: functions.php:585
+#: functions.php:586
 msgid "Last Posts By Category Widget"
-msgstr "آخرین مطالب یک دسته بندی"
+msgstr "نمایش آخرین پست های یک دسته بندی "
 
-#: functions.php:588
+#: functions.php:589
 msgid "Display Last Posts in Category"
-msgstr "نمایش آخرین مطالب منتشر شده در یک دسته بندی خاص"
+msgstr "نمایش آخرین پست های یک دسته بندی "
 
-#: functions.php:638 functions.php:733
+#: functions.php:639 functions.php:734
 msgid "Last Posts"
-msgstr "آخرین مطالب"
+msgstr "آخرین پست ها"
 
-#: functions.php:657
+#: functions.php:658
 msgid "Post Numbers :"
-msgstr "تعداد مطالب : "
+msgstr "تعداد پست ها: "
 
-#: functions.php:661
+#: functions.php:662
 msgid "Post Category :"
-msgstr "دسته بندی مطالب : "
+msgstr "دسته بندی پست : "
 
-#: functions.php:692
+#: functions.php:693
 msgid "Contact Informaion Widget"
 msgstr "ابزارک اطلاعات تماس"
 
-#: functions.php:695
+#: functions.php:696
 msgid "Display Contact Information"
-msgstr "نمایش اطلاعات تماس"
+msgstr "نمایش اطلاعات تماس "
 
-#: functions.php:712
+#: functions.php:713
 msgid "Address : "
 msgstr "آدرس : "
 
-#: functions.php:713
+#: functions.php:714
 msgid "Phone : "
 msgstr "تلفن : "
 
-#: functions.php:714
+#: functions.php:715
 msgid "Fax : "
 msgstr "فکس : "
 
-#: functions.php:715
+#: functions.php:716
 msgid "Email : "
 msgstr "ایمیل : "
 
-#: functions.php:767
+#: functions.php:768
 msgid "Address :"
-msgstr "آدرس : "
+msgstr "آدرس :"
 
-#: functions.php:771
+#: functions.php:772
 msgid "Phone Number :"
 msgstr "شماره تلفن : "
 
-#: functions.php:776
+#: functions.php:777
 msgid "Fax Number :"
 msgstr "شماره فکس : "
 
-#: functions.php:781
+#: functions.php:782
 msgid "Email Address :"
 msgstr "آدرس ایمیل : "
 
-#: functions.php:808
+#: functions.php:809
 msgid "Social Networks Widget"
-msgstr "ابزارک لینک های اجتماعی"
+msgstr "ابزارک لینک های اجتماعی "
 
-#: functions.php:811
+#: functions.php:812
 msgid "Social Networks and Important links"
-msgstr "نمایش لینک های اجتماعی و لینک های مهم"
+msgstr "نمایش لینک های اجتماعی "
 
-#: functions.php:836
+#: functions.php:837
 msgid "Download Cataloge"
 msgstr "دانلود کاتالوگ"
 
-#: functions.php:837
-msgid "Send Email"
-msgstr "ارسال ایمیل"
-
 #: functions.php:838
+msgid "Send Email"
+msgstr "ارسال ایمیل "
+
+#: functions.php:839
 msgid "Login"
-msgstr "ورود"
+msgstr "ورود "
 
-#: functions.php:856
+#: functions.php:857
 msgid "Social Links"
-msgstr "لینک های اجتماعی"
+msgstr "لینک های اجتماعی "
 
-#: functions.php:904
+#: functions.php:905
 msgid "Google Plus Url :"
-msgstr "آدرس گوگل پلاس :"
+msgstr ""
 
-#: functions.php:908
+#: functions.php:909
 msgid "Facebook Url :"
-msgstr "آدرس فیسبوک : "
+msgstr ""
 
-#: functions.php:912
+#: functions.php:913
 msgid "Linkedin Url :"
-msgstr "آدرس لینکداین : "
+msgstr ""
 
-#: functions.php:916
+#: functions.php:917
 msgid "Instagram Url :"
-msgstr "آدرس اینستاگرام : "
+msgstr ""
 
-#: functions.php:920
+#: functions.php:921
 msgid "Catalog Download url :"
-msgstr "آدرس صفحه یا لینک دانلود کاتالوگ : "
+msgstr ""
 
-#: functions.php:924
+#: functions.php:925
 msgid "Send Email Url :"
-msgstr "آدرس صفحه یا لینک ارسال ایمیل : "
+msgstr ""
 
-#: functions.php:928
+#: functions.php:929
 msgid "Login Url :"
-msgstr "آدرس ورود به سایت :"
+msgstr ""
 
-#: functions.php:1229
+#: functions.php:1230
 msgid "Another user have been registered by this User Name or Email"
-msgstr "کاربر دیگری قبلا با این شناسه کاربری یا ایمیل ثبت نام کرده است."
+msgstr ""
+"کاربر دیگری با این مشخصات عضو شده است لطفا مشخصات کاربری خود را تغییر دهید"
 
-#: functions.php:1233
+#: functions.php:1234
 msgid "Anti Spam is Not correct!"
 msgstr "کد امنیتی صحیح نمی باشد!"
 
-#: functions.php:1237
+#: functions.php:1238
 msgid "Please fill the required fields : User Name - Email - Password"
-msgstr "لطفا فیلدهای ضروری را تکمیل نمایید : شناسه کاربری - ایمیل - کلمه عبور"
-
-#: functions.php:1283
-msgid "Vira Club Registeration"
-msgstr "عضویت در Vira Club"
+msgstr "لطفا فیلد های ضروری را تکمیل نمایید : نام کاربری - ایمیل - کلمه عبور"
 
 #: functions.php:1284
-msgid "Login to Site"
-msgstr "ورود به سایت"
+msgid "Vira Club Registeration"
+msgstr "عضویت در ویرا کلاب"
 
-#: functions.php:1291
-msgid "First Name"
-msgstr "نام"
+#: functions.php:1285
+msgid "Login to Site"
+msgstr "ورود به سایت "
 
 #: functions.php:1292
-msgid "Last Name"
-msgstr "نام خانوادگی"
+msgid "First Name"
+msgstr "نام "
 
 #: functions.php:1293
-msgid "UserName"
-msgstr "شناسه کاربری"
+msgid "Last Name"
+msgstr "نام خانوادگی "
 
 #: functions.php:1294
+msgid "UserName"
+msgstr "شناسه کاربری "
+
+#: functions.php:1295
 msgid "Birthday"
 msgstr "روز تولد"
 
-#: functions.php:1296 functions.php:1488
+#: functions.php:1297 functions.php:1489
 msgid "Birth Month"
 msgstr "ماه تولد"
 
-#: functions.php:1298 functions.php:1496
+#: functions.php:1299 functions.php:1497
 msgid "Birth Year"
 msgstr "سال تولد"
 
-#: functions.php:1300 functions.php:1512
+#: functions.php:1301 functions.php:1513
 msgid "Job"
-msgstr "زمینه شغلی"
+msgstr "شغل"
 
-#: functions.php:1301 functions.php:1504 functions.php:1621
+#: functions.php:1302 functions.php:1505 functions.php:1622
 msgid "Phone"
 msgstr "تلفن"
 
-#: functions.php:1303 functions.php:1622
+#: functions.php:1304 functions.php:1623
 msgid "Email"
 msgstr "ایمیل"
 
-#: functions.php:1304
+#: functions.php:1305
 msgid "Password"
 msgstr "کلمه عبور"
 
-#: functions.php:1305
+#: functions.php:1306
 msgid "At least 6 character."
 msgstr "حداقل 6 کارکتر"
 
-#: functions.php:1308
+#: functions.php:1309
 msgid "Submit"
 msgstr "تایید"
 
-#: functions.php:1343
+#: functions.php:1344
 msgid "User Profile"
-msgstr "پروفایل کاربری"
-
-#: functions.php:1347
-msgid "first name: "
-msgstr "نام: "
+msgstr "پروفایل کاربر"
 
 #: functions.php:1348
+msgid "first name: "
+msgstr "نام : "
+
+#: functions.php:1349
 msgid "last name: "
 msgstr "نام خانوادگی : "
 
-#: functions.php:1349 functions.php:1573 functions.php:1605
+#: functions.php:1350 functions.php:1574 functions.php:1606
 msgid "Username: "
 msgstr "شناسه کاربری : "
 
-#: functions.php:1351
-msgid "Birthday: "
-msgstr "تاریخ تولد : "
-
 #: functions.php:1352
+msgid "Birthday: "
+msgstr "روز تولد : "
+
+#: functions.php:1353
 msgid "Phone: "
 msgstr "تلفن : "
 
-#: functions.php:1353
+#: functions.php:1354
 msgid "Email: "
 msgstr "ایمیل : "
 
-#: functions.php:1354
+#: functions.php:1355
 msgid "Job: "
-msgstr "زمینه شغلی : "
+msgstr "شغل : "
 
-#: functions.php:1356
+#: functions.php:1357
 msgid "Vira Club ID: "
-msgstr "کد عضویت : "
+msgstr "آی دی ویرا کلاب : "
 
-#: functions.php:1359
+#: functions.php:1360
 msgid "Logout"
-msgstr "خروج"
+msgstr "خروج "
 
-#: functions.php:1390 taxonomy-project_cat.php:16
+#: functions.php:1391 taxonomy-project_cat.php:16
 msgid "Title"
-msgstr "عنوان"
+msgstr "عنوان "
 
-#: functions.php:1477
+#: functions.php:1478
 msgid "Extra profile information"
-msgstr "مشخصات اضافی پروفایل"
+msgstr "اطلاعات اضافی پروفایل "
 
-#: functions.php:1480
+#: functions.php:1481
 msgid "birthday"
 msgstr "روز تولد"
 
-#: functions.php:1484
+#: functions.php:1485
 msgid "Please enter your Birthday."
-msgstr "روز تولد را وارد نمایید"
+msgstr "لطفا روز تولد خود را وارد نمایید ."
 
-#: functions.php:1492
+#: functions.php:1493
 msgid "Please enter your Birth Month."
-msgstr "ماه تولد را وارد نمایید"
+msgstr "لطفا ماه تولد خود را وارد نمایید "
 
-#: functions.php:1500
+#: functions.php:1501
 msgid "Please enter your Birth Year."
-msgstr "سال تولد را وارد نمایید"
+msgstr "لطفا سال تولد خود را وارد نمایید."
 
-#: functions.php:1508
+#: functions.php:1509
 msgid "Please enter your phone."
-msgstr "شماره تلفن را وارد نمایید"
+msgstr "لطفا تلفن خود را وارد نمایید "
 
-#: functions.php:1516
+#: functions.php:1517
 msgid "Please enter your Job."
-msgstr "زمینه شغلی را وارد نمایید"
+msgstr "لطفا شغل خود را وارد نمایید "
 
-#: functions.php:1520
+#: functions.php:1521
 msgid "Vira club ID"
-msgstr "شماره عضویت"
+msgstr "آی دی ویرا کلاب"
 
-#: functions.php:1571
+#: functions.php:1572
 msgid "New User Have Registered "
 msgstr "کاربر جدید عضو سایت شد"
 
-#: functions.php:1575 functions.php:1607
+#: functions.php:1576 functions.php:1608
 msgid "Password: "
-msgstr "کلمه عبور: "
+msgstr "کلمه عبور : "
 
-#: functions.php:1577 functions.php:1609
+#: functions.php:1578 functions.php:1610
 msgid "ViraClub ID: "
-msgstr "شناسه ViraClub : "
+msgstr "آی دی ویرا کلاب : "
 
-#: functions.php:1600
+#: functions.php:1601
 msgid "Welcome to "
 msgstr "خوش آمدید به "
 
-#: functions.php:1601
+#: functions.php:1602
 msgid "Hello,"
-msgstr "سلام، "
+msgstr "سالم "
 
-#: functions.php:1603
+#: functions.php:1604
 msgid "Welcome to Our Site"
 msgstr "به سایت ما خوش آمدید"
 
-#: functions.php:1620
+#: functions.php:1621
 msgid "ViraClub ID"
-msgstr "شماره عضویت"
+msgstr "آی دی ویرا کلاب "
 
-#: functions.php:1692 functions.php:1699 searchform.php:3
+#: functions.php:1693 functions.php:1700 searchform.php:3
 msgid "Search for:"
-msgstr "جستجو برای : "
+msgstr "جستجو برای "
 
-#: functions.php:1731
+#: functions.php:1732
 msgid " -- Only registered Users can Download the Catalog -- "
-msgstr "-- تنها کاربران عضو سایت قادر به دانلود کاتالوگ می باشند --"
+msgstr "-- تنها کاربران عضو می توانند کاتالوگ را دانلود نمایند --"
 
-#: header.php:81
-msgid "Clean Room Technology & Construction"
-msgstr ""
+#: header.php:82
+msgid "the customer is always right"
+msgstr "همیشه حق با مشتری است "
 
-#: header.php:100 library/itstar.php:285
+#: header.php:102 library/itstar.php:285
 msgid "The Main Menu"
 msgstr "فهرست اصلی"
 
-#: header.php:119
+#: header.php:121
 msgid "Main Menu"
-msgstr "منوی اصلی"
+msgstr "فهرست اصلی "
 
 #: library/banner-maker.php:20
 #, php-format
 msgid "Search Results for: %s"
-msgstr "نتایج جستجو برای : %s"
+msgstr "جستجو برای : %s"
 
 #: library/cmb-functions.php:112
 msgid "Product Features"
-msgstr "ویژگی های محصول "
+msgstr "ویژگی های محصولات "
 
 #: library/cmb-functions.php:120
 msgid "Add Product features"
@@ -517,11 +516,11 @@ msgstr "ویژگی {#}"
 
 #: library/cmb-functions.php:123 library/cmb-functions.php:223
 msgid "Add Another feature"
-msgstr "افزودن ویژگی دیگر"
+msgstr "افزودن ویژگی جدید"
 
 #: library/cmb-functions.php:124 library/cmb-functions.php:224
 msgid "Remove feature"
-msgstr "حذف ویژگی"
+msgstr "حذف ویژگی "
 
 #: library/cmb-functions.php:132 library/cmb-functions.php:232
 msgid "Feature Name"
@@ -529,7 +528,7 @@ msgstr "نام ویژگی"
 
 #: library/cmb-functions.php:133 library/cmb-functions.php:233
 msgid "write the feature name "
-msgstr "نام ویژگی را وارد نمایید"
+msgstr "نگارش نام ویژگی"
 
 #: library/cmb-functions.php:141
 msgid "Feature Description "
@@ -537,15 +536,15 @@ msgstr "توضیحات ویژگی"
 
 #: library/cmb-functions.php:142
 msgid "write the feature Description if needed"
-msgstr "توضیحات ویژگی را در صورت نیاز وارد نمایید"
+msgstr "نام وِیژگی را در صورت نیاز یادداشت نمایید"
 
 #: library/cmb-functions.php:150 library/cmb-functions.php:280
 msgid "Images"
-msgstr "تصاویر"
+msgstr "تصویر"
 
 #: library/cmb-functions.php:151 library/cmb-functions.php:281
 msgid "Upload or add multiple images/attachments."
-msgstr "تصاویر را بارگذاری نمایید."
+msgstr "بارگذاری یا افزودن تصویر "
 
 #: library/cmb-functions.php:177
 msgid "Project Date"
@@ -557,27 +556,27 @@ msgstr "تاریخ "
 
 #: library/cmb-functions.php:191
 msgid "Enter Project Date"
-msgstr "تاریخ پروژه را وارد نمایید"
+msgstr "تاریخ پروژه را وارد نایید"
 
 #: library/cmb-functions.php:212
 msgid "Project Features"
-msgstr "ویژگی های پروژه"
+msgstr "ویژگی پروژه"
 
 #: library/cmb-functions.php:220
 msgid "Add Project features"
-msgstr "افزودن ویژگی های پروژه"
+msgstr "ویژگی پروژه را وارد نمایید"
 
 #: library/cmb-functions.php:241
 msgid "Feature Value"
-msgstr "مقدار ویژگی"
+msgstr "ارزش ویژگی "
 
 #: library/cmb-functions.php:242
 msgid "write the feature Value "
-msgstr "مقدار ویژگی را وارد نمایید"
+msgstr "ارزش ویژگی را وارد نمایید "
 
 #: library/cmb-functions.php:267
 msgid "Project Images"
-msgstr "تصاویر پروژه"
+msgstr "تصویر پروژه"
 
 #: library/cmb-functions.php:309
 msgid "Page Banner"
@@ -589,11 +588,11 @@ msgstr "بنر"
 
 #: library/cmb-functions.php:323
 msgid "Choose Banner Mod, SlideShow , Image Banner or Nothing"
-msgstr "لطفا نوع بنر صفحه را انتخاب نمایید"
+msgstr "یک نوع بنر برای صفحه انتخاب نمایید"
 
 #: library/cmb-functions.php:328
 msgid "Slider"
-msgstr "اسلایدشو"
+msgstr "اسلایدر"
 
 #: library/cmb-functions.php:329
 msgid "Image"
@@ -601,53 +600,50 @@ msgstr "تصویر"
 
 #: library/cmb-functions.php:330
 msgid "Map"
-msgstr ""
+msgstr "نقشه"
 
 #: library/cmb-functions.php:343
 msgid "Slider Shortcode"
-msgstr "کدکوتاه اسلایدشو"
+msgstr "کد کوتاه اسلایدشو"
 
 #: library/cmb-functions.php:344
 msgid "write this page Revolotion Slider shortcode with alis name here"
-msgstr ""
-"کد کوتاه اسلایدشو را از طریق ویرایشگر به دست آورده و به صورت کامل وارد نمایید"
+msgstr "کد کوتاه اسلایدشو را وارد نمایید"
 
 #: library/cmb-functions.php:351
 msgid "Banner Image"
-msgstr "تصویر بنر"
+msgstr "تصویر "
 
 #: library/cmb-functions.php:352
 msgid "Upload an image to show as the banner"
-msgstr "تصویر بنر را بارگذرای نمایید"
+msgstr "یک تصویر را بارگذاری نمایید"
 
 #: library/cmb-functions.php:359
 msgid "Google Map"
-msgstr ""
+msgstr "نقشه گوگل"
 
 #: library/cmb-functions.php:360
 msgid "Enter Google Map embed code"
-msgstr ""
+msgstr "کد جایگذاری نقشه گوگل را وارد نمایید"
 
 #: library/comment-form.php:8
 msgid ""
 "<span class=\"required\">Please fill the fields marked by <i class=\"icon-"
 "star\"></i></span>"
-msgstr ""
-"<span class=\"required\">لطفا فیلد های ضروری را پر کنید. <i class=\"icon-star"
-"\"></i></span>"
+msgstr "<span class=\"required\"> لطفا فیلد های ضروری را تکمیل نمایید </span>"
 
 #: library/comment-form.php:13
 msgid "Leave a Reply"
-msgstr "ارسال یک پاسخ"
+msgstr "ارسال پاسخ"
 
 #: library/comment-form.php:14
 #, php-format
 msgid "Leave a Reply to %s"
-msgstr "ارسال یک پاسخ برای %s"
+msgstr "ارسال پاسخ به %s"
 
 #: library/comment-form.php:15
 msgid "Cancel Reply<i class=\"fa fa-remove\"></i>"
-msgstr "لغو دیدگاه <i class=\"fa fa-remove\"></i>"
+msgstr "لغو دیدگاه"
 
 #: library/comment-form.php:16
 msgid "Post Comment"
@@ -664,7 +660,7 @@ msgstr "پیام شما"
 #: library/comment-form.php:24
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
-msgstr "شما برای ارسال پیام باید  <a href=\"%s\">وارد سایت شوید</a>"
+msgstr "برای ارسال دیدگاه باید <a href=\"%s\">وارد سایت شوید</a>"
 
 #: library/comment-form.php:30
 #, php-format
@@ -672,8 +668,8 @@ msgid ""
 "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
 "this account\">Log out?</a>"
 msgstr ""
-"شما به عنوان <a href=\"%1$s\">%2$s</a> وارد سایت شده اید آیا می خواهید <a "
-"href=\"%3$s\" title=\"Log out of this account\">خارج شوید؟</a>"
+"شما به عنوان <a href=\"%1$s\">%2$s</a> وارد سایت شده اید . آیا می خواهید  <a "
+"href=\"%3$s\" title=\"Log out of this account\"> خارج شوید ؟</a>"
 
 #: library/comment-form.php:37
 msgid "Your email address will not be published."
@@ -688,7 +684,7 @@ msgstr "شما می توانید از این تگ های اچ تی ام ال ا�
 
 #: library/comment-form.php:50
 msgid "<i class=\"fa fa-user\"></i> Name"
-msgstr "<i class=\"fa fa-user\"></i> نام"
+msgstr "<i class=\"fa fa-user\"></i> نام "
 
 #: library/comment-form.php:50
 msgid "yourname"
@@ -696,7 +692,7 @@ msgstr "نام شما"
 
 #: library/comment-form.php:56
 msgid "<i class=\"fa fa-envelope\"></i> Email"
-msgstr "<i class=\"fa fa-envelope\"></i> ایمیل شما"
+msgstr "<i class=\"fa fa-envelope\"></i> ایمیل "
 
 #: library/comment-form.php:56
 msgid "yourname@example.com"
@@ -704,7 +700,7 @@ msgstr ""
 
 #: library/comment-form.php:63
 msgid "<i class=\"fa fa-link\"></i> Website"
-msgstr "<i class=\"fa fa-link\"></i>وب سایت / وبلاگ "
+msgstr "<i class=\"fa fa-link\"></i> وب سایت "
 
 #: library/comment-form.php:64
 msgid "www.example.com"
@@ -712,13 +708,13 @@ msgstr ""
 
 #: library/custom-post-type.php:31 library/custom-post-type.php:32
 msgid "Product"
-msgstr "محصولات"
+msgstr "محصول"
 
 #: library/custom-post-type.php:33
 msgid "All Products"
 msgstr "همه محصولات"
 
-#: library/custom-post-type.php:34 library/custom-post-type.php:79
+#: library/custom-post-type.php:34
 msgid "Add New"
 msgstr "افزودن جدید"
 
@@ -726,7 +722,7 @@ msgstr "افزودن جدید"
 msgid "Add New Products"
 msgstr "افزودن محصول جدید"
 
-#: library/custom-post-type.php:36 library/custom-post-type.php:81
+#: library/custom-post-type.php:36
 msgid "Edit"
 msgstr "ویرایش"
 
@@ -744,256 +740,19 @@ msgstr "نمایش محصول"
 
 #: library/custom-post-type.php:40
 msgid "Search Products"
-msgstr "جستجوی محصول ها"
+msgstr "جستجوی محصولات"
 
-#: library/custom-post-type.php:41 library/custom-post-type.php:86
+#: library/custom-post-type.php:41
 msgid "Nothing found in the Database."
 msgstr "موردی در پایگاه داده یافت نشد"
 
-#: library/custom-post-type.php:42 library/custom-post-type.php:87
+#: library/custom-post-type.php:42
 msgid "Nothing found in Trash"
 msgstr "موردی در زباله دان یافت نشد"
 
 #: library/custom-post-type.php:45
 msgid "This is a Product"
-msgstr "این یک محصول است"
-
-#: library/custom-post-type.php:76 library/custom-post-type.php:77
-msgid "Project"
-msgstr "پروژه ها"
-
-#: library/custom-post-type.php:78
-msgid "All Projects"
-msgstr "همه پروژه ها"
-
-#: library/custom-post-type.php:80
-msgid "Add New Project"
-msgstr "افزودن پروژ جدید"
-
-#: library/custom-post-type.php:82
-msgid "Edit Project"
-msgstr "ویرایش پروژه"
-
-#: library/custom-post-type.php:83
-msgid "New Project"
-msgstr "پروژه جدید"
-
-#: library/custom-post-type.php:84
-msgid "View Project"
-msgstr "نمایش پروژه"
-
-#: library/custom-post-type.php:85
-msgid "Search Projects"
-msgstr "جستجوی پروژه ها"
-
-#: library/custom-post-type.php:90
-msgid "This is a Project"
-msgstr "این یک پروژه است "
-
-#: library/custom-post-type.php:135
-msgid "Product Categories"
-msgstr "دسته بندی محصولات"
-
-#: library/custom-post-type.php:136
-msgid "Product Category"
-msgstr "دسته بندی محصول"
-
-#: library/custom-post-type.php:137
-msgid "Search Product Categories"
-msgstr "جستجوی دسته بندی محصولات"
-
-#: library/custom-post-type.php:138
-msgid "All Product Categories"
-msgstr "همه دسته بندی های محصول"
-
-#: library/custom-post-type.php:139
-msgid "Parent Product Category"
-msgstr "مادر دسته بندی های محصول"
-
-#: library/custom-post-type.php:140
-msgid "Parent Product Category:"
-msgstr "مادر دسته بندی های محصول :"
-
-#: library/custom-post-type.php:141
-msgid "Edit Product Category"
-msgstr "ویرایش دسته بندی محصول"
-
-#: library/custom-post-type.php:142
-msgid "Update Product Category"
-msgstr "بروز رسانی دسته بندی محصول"
-
-#: library/custom-post-type.php:143
-msgid "Add New Product Category"
-msgstr "افزودن دسته بندی محصول جدید"
-
-#: library/custom-post-type.php:144
-msgid "New Product Category Name"
-msgstr "نام دسته بندی محصول جدید"
-
-#: library/custom-post-type.php:160
-msgid "Product Tags"
-msgstr "برچسب های محصول"
-
-#: library/custom-post-type.php:161
-msgid "Product Tag"
-msgstr "برچسب محصول"
-
-#: library/custom-post-type.php:162
-msgid "Search Product Tags"
-msgstr "جستجوی برچسب های محصول"
-
-#: library/custom-post-type.php:163
-msgid "All Product Tags"
-msgstr "همه برچسب های محصول"
-
-#: library/custom-post-type.php:164
-msgid "Parent Product Tag"
-msgstr "مادر برچسب محصول"
-
-#: library/custom-post-type.php:165
-msgid "Parent Product Tag:"
-msgstr "مادر برچسب محصول :"
-
-#: library/custom-post-type.php:166
-msgid "Edit Product Tag"
-msgstr "ویرایش برچسب محصول"
-
-#: library/custom-post-type.php:167
-msgid "Update Product Tag"
-msgstr "بروز رسانی برچسب محصول"
-
-#: library/custom-post-type.php:168
-msgid "Add New Product Tag"
-msgstr "افزودن برچسب محصول جدید"
-
-#: library/custom-post-type.php:169
-msgid "New Product Tag Name"
-msgstr "نام برچسب محصول جدید"
-
-#: library/custom-post-type.php:182
-msgid "Project Categories"
-msgstr "دسته بندی پروژه ها"
-
-#: library/custom-post-type.php:183
-msgid "Project Category"
-msgstr "دسته بندی پروژه"
-
-#: library/custom-post-type.php:184
-msgid "Search Project Categories"
-msgstr "جستجوی دسته بندی های پروژه"
-
-#: library/custom-post-type.php:185
-msgid "All Project Categories"
-msgstr "همه دسته بندی های پروژه"
-
-#: library/custom-post-type.php:186
-msgid "Parent Project Category"
-msgstr "دسته بندی مادر پروژه"
-
-#: library/custom-post-type.php:187
-msgid "Parent Project Category:"
-msgstr "دسته بندی مادر پروژه"
-
-#: library/custom-post-type.php:188
-msgid "Edit Project Category"
-msgstr "ویرایش دسته بندی پروژه"
-
-#: library/custom-post-type.php:189
-msgid "Update Project Category"
-msgstr "بروز رسانی دسته بندی پروژه"
-
-#: library/custom-post-type.php:190
-msgid "Add New Project Category"
-msgstr "افزودن دسته بندی پروژه جدید"
-
-#: library/custom-post-type.php:191
-msgid "New Project Category Name"
-msgstr "نام دسته بندی پروژه جدید"
-
-#: library/custom-post-type.php:207
-msgid "Project Tags"
-msgstr "برچسب های  پروژه"
-
-#: library/custom-post-type.php:208
-msgid "Project Tag"
-msgstr "برچسب پروژه"
-
-#: library/custom-post-type.php:209
-msgid "Search Project Tags"
-msgstr "جستجوی برچسب های پروژه"
-
-#: library/custom-post-type.php:210
-msgid "All Project Tags"
-msgstr "همه برچسب های پروژه"
-
-#: library/custom-post-type.php:211
-msgid "Parent Project Tag"
-msgstr "مادر برچسب پروژه"
-
-#: library/custom-post-type.php:212
-msgid "Parent Project Tag:"
-msgstr "مادر برچسب پروژه:"
-
-#: library/custom-post-type.php:213
-msgid "Edit Project Tag"
-msgstr "ویرایش برچسب پروژه"
-
-#: library/custom-post-type.php:214
-msgid "Update Project Tag"
-msgstr "بروز رسانی برچسب پروژه"
-
-#: library/custom-post-type.php:215
-msgid "Add New Project Tag"
-msgstr "افزودن برچسب پروژه جدید"
-
-#: library/custom-post-type.php:216
-msgid "New Project Tag Name"
-msgstr "نام برچسب پروژه جدید"
-
-#: library/notifications.php:15
-#, php-format
-msgid "New user registration in %s:"
-msgstr "عضویت کاربر جدید در %s"
-
-#: library/notifications.php:16 library/notifications.php:26
-#, php-format
-msgid "Username: %s"
-msgstr "شناسه کاربری :  %s"
-
-#: library/notifications.php:17
-#, php-format
-msgid "E-mail: %s"
-msgstr "ایمیل : %s"
-
-#: library/notifications.php:18 library/notifications.php:28
-#, php-format
-msgid "Vira Club ID : V%s"
-msgstr "کد عضویت : V%s"
-
-#: library/notifications.php:20
-msgid "New User Registration"
-msgstr "عضویت کاربر جدید"
-
-#: library/notifications.php:25
-msgid "Your Information : "
-msgstr "اطلاعات عضویت شما : "
-
-#: library/notifications.php:27
-#, php-format
-msgid "Password: %s"
-msgstr "کلمه عبور : %s"
-
-#: library/notifications.php:31
-msgid "Welcome to Vira"
-msgstr "به ویرا خوش آمدید"
-
-#: library/post-meta.php:11 library/post-meta.php:32 library/post-meta.php:48
-msgid "Tags :"
-msgstr "برچسب ها : "
-
-#: library/related-links.php:20
-msgid "related sites"
-msgstr "سایت های مرتبط"
+msgstr "این یک محصول است "
 
 #: library/itstar.php:87
 #, php-format
@@ -1006,35 +765,68 @@ msgstr "فهرست موبایل"
 
 #: library/itstar.php:318
 msgid "No Related Posts Yet!"
-msgstr "هنوز مطلب مرتبطی منتشر نشده است"
+msgstr "هنوز مطلب مشابه ای منتشر نشده است !"
 
 #: library/itstar.php:363
 msgid "Read "
-msgstr "ادامه"
+msgstr "ادامه "
 
 #: library/itstar.php:363
 msgid "Read more &raquo;"
-msgstr "ادامه مطلب"
+msgstr "ادامه &raquo;"
+
+#: library/notifications.php:15
+#, php-format
+msgid "New user registration in %s:"
+msgstr "کاربر جدید در %s عضو گردید : "
+
+#: library/notifications.php:16 library/notifications.php:26
+#, php-format
+msgid "Username: %s"
+msgstr "نام کاربری : %s"
+
+#: library/notifications.php:17
+#, php-format
+msgid "E-mail: %s"
+msgstr "ایمیل : %s"
+
+#: library/notifications.php:18 library/notifications.php:28
+#, php-format
+msgid "Vira Club ID : V%s"
+msgstr "آی دی ویرا کلاب : %s"
+
+#: library/notifications.php:20
+msgid "New User Registration"
+msgstr "عضویت کاربر جدید"
+
+#: library/notifications.php:25
+msgid "Your Information : "
+msgstr "اطلاعات شما : "
+
+#: library/notifications.php:27
+#, php-format
+msgid "Password: %s"
+msgstr "کلمه عبور : %s"
+
+#: library/notifications.php:31
+msgid "Welcome to Vira"
+msgstr "به ویرا خوش آمدید "
+
+#: library/post-meta.php:11 library/post-meta.php:32 library/post-meta.php:48
+msgid "Tags :"
+msgstr "برچسب ها : "
+
+#: library/related-links.php:20
+msgid "related sites"
+msgstr "سایت های مرتبط "
 
 #: searchform.php:6
 msgid "Search"
-msgstr "جستجو"
+msgstr "جستجو "
 
 #: single-project.php:32
 msgid "Date "
-msgstr "تاریخ"
+msgstr "تاریخ "
 
-#~ msgid "Designed by "
-#~ msgstr "طراحی شده توسط"
-
-#~ msgid "Farakaranet "
-#~ msgstr "فراکارانت"
-
-#~ msgid "Create Your Own Ideas"
-#~ msgstr "خالق ایده های خود باشید"
-
-#~ msgid "Be Your Ideas Creator"
-#~ msgstr "خالق ایده های خود باشید"
-
-#~ msgid "Be Yourself Furniture Designer"
-#~ msgstr "خالق فضا و مبلمان خود باشید"
+#~ msgid "Sana © 2015. All rights reserved."
+#~ msgstr "سنا چوب  © 2016"

@@ -8,7 +8,7 @@ body{
 	max-width : 1400px;
 	background-color : $grey2;
 	margin : auto;
-	
+
 	z-index : 1;
 	// &.body-wrapper {
 	//   display: none;
@@ -23,11 +23,11 @@ body{
 	margin:auto;
 	overflow : hidden;
 
-	
+
 
 	//display : none;
 
-	
+
 }
 .site-main{
 	background-color: $white;
@@ -39,7 +39,7 @@ body{
 
 		h1{
 			display : inline-block;
-			border-bottom : 3px solid $red;
+			border-bottom : 3px solid $green;
 			margin : 0 auto;
 			font-size : 150%;
 		}
@@ -54,7 +54,7 @@ body{
 		overflow: hidden;
 	}
 	.banner-space{
-		
+
 		display : block;
 		min-height :50px;
 
@@ -72,11 +72,11 @@ body{
 
 //-------------site-content-------------------
 .primary{
- 	@include span-columns(12,12);
- 	@include at-breakpoint($medium){
- 		@include span-columns(8,12);
- 	}
- 	padding:{
+	@include span-columns(12,12);
+	@include at-breakpoint($medium){
+		@include span-columns(8,12);
+	}
+	padding:{
 		top :20px;
 		bottom : 20px;
 	}
@@ -106,9 +106,9 @@ body{
 		margin : auto;
 		article .featured-image{
 			@include span-columns(12,12);
-		 	@include at-breakpoint($medium){
-		 		@include span-columns(5,12);
-		 	}
+			@include at-breakpoint($medium){
+				@include span-columns(5,12);
+			}
 			img{
 				max-width : 100%;
 				height : auto;
@@ -117,9 +117,9 @@ body{
 		}
 		article .article-body{
 			@include span-columns(12,12);
-		 	@include at-breakpoint($medium){
-		 		@include span-columns(7 omega,12);
-		 	}
+			@include at-breakpoint($medium){
+				@include span-columns(7 omega,12);
+			}
 			p{
 				padding : 5px;
 				text-align: justify;
@@ -127,7 +127,7 @@ body{
 		}
 
 	}
-	
+
 }
 article,.hentry{
 	.featured-image.single-image{
@@ -135,7 +135,7 @@ article,.hentry{
 		padding-right : 10px;
 
 	}
-	
+
 	padding : 20px;
 	padding-bottom : 50px;
 
@@ -190,7 +190,7 @@ article,.hentry{
 			display : inline-block;
 
 
-						
+
 		}
 	}
 	// &:hover .article-title h3::after{
@@ -223,12 +223,12 @@ article,.hentry{
 			width : 100%;
 		}
 		li{
-			
+
 			display : inline-block;
 			width : 100%;
 			padding : 0;
 			margin : 0;
-			
+
 			span{
 				border : 1px solid $grey2;
 				padding : 5px 15px;
@@ -270,7 +270,7 @@ article,.hentry{
 		padding-left : 30px;
 		padding-bottom : 30px;
 		display : block;
-		overflow : hidden; 
+		overflow : hidden;
 	}
 	.viraid{
 		background-color: $grey1;
@@ -303,9 +303,9 @@ article,.hentry{
 		}
 		.register-show{
 			padding : 12px 10px;
-			margin :10px; 
+			margin :10px;
 			color : $white;
-			background-color: $red;
+			background-color: $green;
 			//@include border-radius(3px);
 			opacity : 0.85;
 			&:hover{
@@ -328,8 +328,8 @@ article,.hentry{
 			.login-username,.login-password{
 				label{
 					width: 50px;
-    				display: inline-block;
-    			}
+					display: inline-block;
+				}
 			}
 			input{
 				padding : 5px 10px;
@@ -338,7 +338,7 @@ article,.hentry{
 	}
 	.register-container{
 		display : none;
-		
+
 		&.form-display{
 			display : block;
 		}
@@ -351,9 +351,9 @@ article,.hentry{
 			table{
 				th{
 
-				    padding: 5px;
-				    width: 104px;
-				    text-align: left;
+					padding: 5px;
+					width: 104px;
+					text-align: left;
 
 				}
 			}
@@ -377,17 +377,17 @@ article,.hentry{
 		margin-top : 0px;
 		padding : 10px 0px;
 		width : 100%;
-			&::after{
-				@include single-transition(all 0.2s ease-out);
-				display : block;
-				content : "";
-				width : 30px;
-				height : 3px;
-				background-color : $red;
-				position : absolute;
-				bottom : 0px;
-				left : 0;
-			}
+		&::after{
+			@include single-transition(all 0.2s ease-out);
+			display : block;
+			content : "";
+			width : 30px;
+			height : 3px;
+			background-color : $green;
+			position : absolute;
+			bottom : 0px;
+			left : 0;
+		}
 
 
 	}
@@ -408,16 +408,16 @@ body.home{
 
 .secondary{
 	@include span-columns(12,12);
- 	@include at-breakpoint($medium){
- 		@include span-columns(4 omega,12);
- 	}
+	@include at-breakpoint($medium){
+		@include span-columns(4 omega,12);
+	}
 	display : block;
-	
+
 	padding:{
 		top :20px;
 		bottom : 20px;
 	}
-	
+
 
 }
 .widget{
@@ -452,7 +452,7 @@ body.home{
 			left : 0px;
 		}
 
-		
+
 	}
 
 	p{
@@ -465,25 +465,25 @@ body.home{
 		vertical-align: middle;
 	}
 	dl, menu, ol, ul{
-		   margin: 0px;
-		   padding : 0px;
+		margin: 0px;
+		padding : 0px;
 	}
 	li{
-	 	line-height: 180%;
-	 }
-	 &.widget_social_widget{
-	 	background-color: $white;
-	 	li:hover{
-	 		@include single-transition(all , 0.2s , ease-in-out);
-	 		background-color: $grey1;
-	 	}
-	 }
+		line-height: 180%;
+	}
+	&.widget_social_widget{
+		background-color: $white;
+		li:hover{
+			@include single-transition(all , 0.2s , ease-in-out);
+			background-color: $grey1;
+		}
+	}
 
 
 }
 
 
-	
+
 ul.widget-list{
 	li{
 		display: list-item;
@@ -491,15 +491,15 @@ ul.widget-list{
 			margin : 5px 12px 5px 5px;
 			vertical-align: middle;
 		}
-		
+
 	}
 }
 ul.social-links{
 	li{
 		padding : 5px;
 		a.sicon{
-			    display: block;
-    			width: 100%;
+			display: block;
+			width: 100%;
 			&:before{
 				text-align: center;
 				margin : 0px 12px 0px 3px;
@@ -507,9 +507,9 @@ ul.social-links{
 				height : 36px;
 				content : "";
 				display : inline-block;
-				background-image : image-url('social-icons.png');
+				//background-image : image-url('social-icons.png');
 				vertical-align: middle;
-				
+
 			}
 			&.google-plus:before{
 				background-position : 0 0;
@@ -533,19 +533,19 @@ ul.social-links{
 				background-position : -213px 0;
 			}
 		}
-		
+
 
 	}
 }
 .all-products{
 	article {
 		@include span-columns(12,12);
-	 	@include at-breakpoint($medium){
-	 		@include span-columns(6,12);
+		@include at-breakpoint($medium){
+			@include span-columns(6,12);
 			&:nth-of-type(2n){
 				@include span-columns(6 omega ,12);
 			}
-	 	}
+		}
 
 	}
 	.single-cat-title{
@@ -565,15 +565,15 @@ ul.social-links{
 				content : "";
 				width : 30px;
 				height : 3px;
-				background-color : $red;
+				background-color : $green;
 				position : absolute;
 				bottom : 0px;
 				left : 0;
 			}
-						
+
 		}
 	}
-	
+
 }
 .contact-area{
 	aside{
@@ -581,15 +581,15 @@ ul.social-links{
 	}
 }
 .contact-odd, .contact-even {
-  padding: 15px; }
-  /* line 432, sass/layout/_main.scss */
-  .contact-odd h4, .contact-even h4 {
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    font-weight: bold;
-    margin: 0px auto; }
+	padding: 15px; }
+/* line 432, sass/layout/_main.scss */
+.contact-odd h4, .contact-even h4 {
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+	margin: 0px auto; }
 .contact-odd{
 	background-color: $grey1;
 	border : {
@@ -598,14 +598,14 @@ ul.social-links{
 	}
 }
 div.panel-grid {
-    margin-bottom: 5px !important;
+	margin-bottom: 5px !important;
 }
 .comment-area{
 	img.avatar{
 		@include border-radius(50%);
 	}
 	.bypostauthor .fn{
-		color : $red;
+		color : $green;
 		padding : 5px;
 	}
 	.comment-metadata{
@@ -614,7 +614,7 @@ div.panel-grid {
 
 		.edit-link{
 			padding : 5px;
-			color : $red;
+			color : $green;
 			&:before{
 				@extend .fa;
 				content : "\f040";
@@ -630,7 +630,7 @@ div.panel-grid {
 			content : "\f112";
 			padding : 5px;
 			vertical-align: middle;
-			color : $red;
+			color : $green;
 		}
 		//margin-bottom :15px;
 	}
@@ -638,7 +638,7 @@ div.panel-grid {
 		display : block;
 		overflow : hidden;
 		.comment-body{
-			
+
 			overflow : hidden;
 		}
 	}
@@ -647,34 +647,34 @@ div.panel-grid {
 	}
 	.depth-1{
 		@include at-breakpoint($medium) {
-		   margin-left : 0;
+			margin-left : 0;
 		}
 	}
 	.depth-2{
 		@include at-breakpoint($medium) {
-		   margin-left : 20px;
+			margin-left : 20px;
 		}
 	}
 	.depth-3{
 		@include at-breakpoint($medium) {
-		   margin-left : 40px;
+			margin-left : 40px;
 		}
 	}
 	.depth-4{
 		@include at-breakpoint($medium) {
-		   margin-left : 60px;
+			margin-left : 60px;
 		}
 	}
-	.even>article{ 
+	.even>article{
 		background-color: $grey1;
 	}
 }
 #commentform{
 	label{
 		float: left;
-    	padding: 0 10px;
-    	display: inline-block;
-    	width: 40%;
+		padding: 0 10px;
+		display: inline-block;
+		width: 40%;
 	}
 
 }

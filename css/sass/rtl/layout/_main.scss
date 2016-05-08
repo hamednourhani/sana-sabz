@@ -1,0 +1,252 @@
+/* main style */
+
+.layout{
+	@include container;
+	position : relative;
+}
+//-------------site-content-------------------
+.primary{
+ 	@include span-columns(12,12);
+ 	@include at-breakpoint($medium){
+ 		@include span-columns(8,12);
+		margin-right : auto;
+ 	}
+}
+.without-sidebar{
+	.primary{
+		@include span-columns(12,12);
+		article .featured-image{
+			@include span-columns(12,12);
+		 	@include at-breakpoint($medium){
+		 		@include span-columns(5,12);
+				margin-right : auto;
+		 	}
+		}
+		article .article-body{
+			@include span-columns(12,12);
+		 	@include at-breakpoint($medium){
+		 		@include span-columns(7 omega,12);
+				margin-right : auto;
+		 	}
+		}
+
+	}
+	
+}
+article,.hentry{
+	.featured-image.single-image{
+		float : right;
+		padding-left : 10px;
+		padding-right : auto;
+
+	}
+
+	@include border-top-right-radius(0px);
+	@include border-top-left-radius(10px);
+	@include border-bottom-left-radius(0px);
+	@include border-bottom-right-radius(10px);
+	background: image_url('pistachio-8-rtl.png') bottom left no-repeat,$glassyCream;
+	background-position: 0% 100%;
+	.article-title{
+		h3{
+			&::after{
+				left : auto;
+				right : 0px;
+			}
+			@include at-breakpoint($slarg){
+				margin-left : auto;
+				margin-right : 70px;
+				&::before{
+					@include single-transition(all 0.2s ease-out);
+					right : 0;
+					left : auto;
+				}
+				&::after{
+					right: 70px;
+					left : auto;
+				}
+			}
+		}
+	}
+	.avatar-container{
+		float : right;
+	}
+	.profile-container {
+		padding-left : auto;
+		padding-right : 30px;
+	}
+	.forms_buttons{
+		.login-show{
+			&:before{
+				margin-left : 10px;
+				margin-right : auto;
+			}
+
+		}
+		.register-show{
+			&:before{
+				margin-left : 10px;
+				margin-right : auto;
+			}
+
+		}
+	}
+	.register-container{
+		form.register_form{
+			table{
+				th{
+					text-align: right;
+
+				}
+			}
+		}
+	}
+	.manual-title{
+			&::after{
+				@include single-transition(all 0.2s ease-out);
+				right: 0;
+				left : auto;
+			}
+
+
+	}
+
+}
+.secondary{
+	@include span-columns(12,12);
+ 	@include at-breakpoint($medium){
+ 		@include span-columns(4 omega,12);
+		margin-right : auto;
+ 	}
+}
+.widget{
+	@include border-top-right-radius(0px);
+	@include border-top-left-radius(10px);
+	@include border-bottom-left-radius(0px);
+	@include border-bottom-right-radius(10px);
+	background : image_url('pistachio-5-rtl.png') bottom left no-repeat ,$glassyCream;
+	h4.widgettitle{
+		&:before{
+			right: 0px;
+			left : auto;
+		}
+
+		
+	}
+
+	i.fa:before{
+		padding-left : 10px;
+		padding-right : auto;
+	}
+}
+
+
+	
+.all-products{
+	article {
+		@include span-columns(12,12);
+	 	@include at-breakpoint($medium){
+	 		@include span-columns(6,12);
+			margin-right : auto;
+			&:nth-of-type(2n){
+				@include span-columns(6 omega ,12);
+				margin-right : auto;
+			}
+	 	}
+
+	}
+	.single-cat-title{
+		h3,h4,h2{
+			&::after{
+				@include single-transition(all 0.2s ease-out);
+				right : 0;
+				left : auto;
+			}
+						
+		}
+	}
+	
+}
+.comment-area{
+	.comment-metadata{
+		float : left;
+
+		.edit-link{
+			&:before{
+				@extend .fa;
+				content : "\f040";
+			}
+		}
+	}
+	.reply{
+		float : left;
+		&:before{
+			@extend .fa;
+			content : "\f112";
+		}
+	}
+	.depth-1{
+		@include at-breakpoint($medium) {
+			margin-left : auto;
+			margin-right : 0;
+		}
+	}
+	.depth-2{
+		@include at-breakpoint($medium) {
+			margin-right: 20px;
+			margin-left : auto;
+		}
+	}
+	.depth-3{
+		@include at-breakpoint($medium) {
+			margin-right : 40px;
+			margin-left : auto;
+		}
+	}
+	.depth-4{
+		@include at-breakpoint($medium) {
+			margin-right: 60px;
+			margin-left : auto;
+		}
+	}
+}
+#commentform{
+	label{
+		float: right;
+	}
+
+}
+
+/*-----------------page templates correction ----------------*/
+.site-main{
+	&.full-weight {
+		.banner-space {
+			min-height : 0px;
+		}
+		.primary {
+			width: 100% !important;
+			margin: 0px !important;
+			padding: 0px !important;
+			article, .hentry {
+				width: 100% !important;
+				margin: 0px !important;
+				padding: 0px !important;
+			}
+		}
+		.secondary{
+			display : none;
+		}
+	}
+	&.without-sidebar{
+		.primary {
+			@include span-columns(12, 12);
+			article.hentry{
+				overflow: hidden;
+				@include span-columns(12,12);
+			}
+		}
+		.secondary{
+			display : none;
+		}
+	}
+}
